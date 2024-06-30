@@ -1,0 +1,2937 @@
+{
+    "places": [
+        {
+            "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw",
+            "id": "ChIJhbDE6VkS04kRXAmXmRSA6Hw",
+            "types": [
+                "banquet_hall",
+                "event_venue",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "nationalPhoneNumber": "(716) 856-2337",
+            "internationalPhoneNumber": "+1 716-856-2337",
+            "formattedAddress": "76 Pearl St, Buffalo, NY 14202, USA",
+            "addressComponents": [
+                {
+                    "longText": "76",
+                    "shortText": "76",
+                    "types": [
+                        "street_number"
+                    ],
+                    "languageCode": "en-US"
+                },
+                {
+                    "longText": "Pearl Street",
+                    "shortText": "Pearl St",
+                    "types": [
+                        "route"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Downtown",
+                    "shortText": "Downtown",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Buffalo",
+                    "shortText": "Buffalo",
+                    "types": [
+                        "locality",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Erie County",
+                    "shortText": "Erie County",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "New York",
+                    "shortText": "NY",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "United States",
+                    "shortText": "US",
+                    "types": [
+                        "country",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "14202",
+                    "shortText": "14202",
+                    "types": [
+                        "postal_code"
+                    ],
+                    "languageCode": "en-US"
+                }
+            ],
+            "plusCode": {
+                "globalCode": "87J3V4JF+C3",
+                "compoundCode": "V4JF+C3 Buffalo, NY, USA"
+            },
+            "location": {
+                "latitude": 42.8810116,
+                "longitude": -78.8772641
+            },
+            "viewport": {
+                "low": {
+                    "latitude": 42.879624119708495,
+                    "longitude": -78.8785468302915
+                },
+                "high": {
+                    "latitude": 42.882322080291495,
+                    "longitude": -78.87584886970849
+                }
+            },
+            "rating": 4.3,
+            "googleMapsUri": "https://maps.google.com/?cid=9000584681264449884",
+            "websiteUri": "http://pearlstreetgrill.com/",
+            "regularOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 0,
+                            "hour": 10,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 0,
+                            "hour": 22,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 11,
+                            "minute": 30
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 22,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 11,
+                            "minute": 30
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 22,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 11,
+                            "minute": 30
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 22,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 11,
+                            "minute": 30
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 22,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 11,
+                            "minute": 30
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 22,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 11,
+                            "minute": 30
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 22,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 11:30 AM – 10:00 PM",
+                    "Tuesday: 11:30 AM – 10:00 PM",
+                    "Wednesday: 11:30 AM – 10:00 PM",
+                    "Thursday: 11:30 AM – 10:00 PM",
+                    "Friday: 11:30 AM – 10:00 PM",
+                    "Saturday: 11:30 AM – 10:00 PM",
+                    "Sunday: 10:00 AM – 10:00 PM"
+                ]
+            },
+            "utcOffsetMinutes": -240,
+            "adrFormatAddress": "<span class=\"street-address\">76 Pearl St</span>, <span class=\"locality\">Buffalo</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">14202</span>, <span class=\"country-name\">USA</span>",
+            "businessStatus": "OPERATIONAL",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "userRatingCount": 1856,
+            "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+            "iconBackgroundColor": "#FF9E67",
+            "displayName": {
+                "text": "Pearl Street Grill & Brewery",
+                "languageCode": "en"
+            },
+            "primaryTypeDisplayName": {
+                "text": "Restaurant",
+                "languageCode": "en-US"
+            },
+            "takeout": true,
+            "delivery": true,
+            "dineIn": true,
+            "reservable": true,
+            "servesLunch": true,
+            "servesDinner": true,
+            "servesBeer": true,
+            "servesWine": true,
+            "servesVegetarianFood": true,
+            "currentOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 0,
+                            "hour": 10,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 6,
+                                "day": 30
+                            }
+                        },
+                        "close": {
+                            "day": 0,
+                            "hour": 22,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 6,
+                                "day": 30
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 11,
+                            "minute": 30,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 1
+                            }
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 22,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 1
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 11,
+                            "minute": 30,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 2
+                            }
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 22,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 2
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 11,
+                            "minute": 30,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 3
+                            }
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 22,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 3
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 11,
+                            "minute": 30,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 4
+                            }
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 22,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 4
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 11,
+                            "minute": 30,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 5
+                            }
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 22,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 5
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 11,
+                            "minute": 30,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 6
+                            }
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 22,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 6
+                            }
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 11:30 AM – 10:00 PM",
+                    "Tuesday: 11:30 AM – 10:00 PM",
+                    "Wednesday: 11:30 AM – 10:00 PM",
+                    "Thursday: 11:30 AM – 10:00 PM",
+                    "Friday: 11:30 AM – 10:00 PM",
+                    "Saturday: 11:30 AM – 10:00 PM",
+                    "Sunday: 10:00 AM – 10:00 PM"
+                ]
+            },
+            "primaryType": "restaurant",
+            "shortFormattedAddress": "76 Pearl St, Buffalo",
+            "editorialSummary": {
+                "text": "Historic 4-level warehouse for bar-&-grill fare, billiards & sports on TV with house brews in hand.",
+                "languageCode": "en"
+            },
+            "reviews": [
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/reviews/ChdDSUhNMG9nS0VJQ0FnSUNMNTgySXpBRRAB",
+                    "relativePublishTimeDescription": "in the last week",
+                    "rating": 1,
+                    "text": {
+                        "text": "My coworker and I stopped in here for lunch last week. The gentleman at the front door who seated us was wonderful, our waiter made us feel like we were bothering him. I noticed that there were things falling from the ceiling on my food. I pointed it out to the server and all he said was “well they clean the ceiling fans all the time“. I didn’t respond to him, I just pointed to the abundance of dust particles all over the table and my food. He didn’t even offer to take my food off the bill. I didn’t make a fuss, I paid my bill and on our way out I alerted the gentleman at the front door of all of the dust and dirt that’s been falling from the ceiling onto not only our table, but every other table as we headed out and he said he would alert Management.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "My coworker and I stopped in here for lunch last week. The gentleman at the front door who seated us was wonderful, our waiter made us feel like we were bothering him. I noticed that there were things falling from the ceiling on my food. I pointed it out to the server and all he said was “well they clean the ceiling fans all the time“. I didn’t respond to him, I just pointed to the abundance of dust particles all over the table and my food. He didn’t even offer to take my food off the bill. I didn’t make a fuss, I paid my bill and on our way out I alerted the gentleman at the front door of all of the dust and dirt that’s been falling from the ceiling onto not only our table, but every other table as we headed out and he said he would alert Management.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Yasminda S O’Hara",
+                        "uri": "https://www.google.com/maps/contrib/104335866969201579294/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVKIqMJABNgADm9T3gJR9Rt20IKaWbfbPdFUXFXK9lEuUu6B8a8qg=s128-c0x00000000-cc-rp-mo-ba3"
+                    },
+                    "publishTime": "2024-06-23T18:50:10Z"
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/reviews/ChZDSUhNMG9nS0VJQ0FnSURUa0t6ak93EAE",
+                    "relativePublishTimeDescription": "a month ago",
+                    "rating": 4,
+                    "text": {
+                        "text": "Stopped in for an early dinner and we’re seated immediately. The beer selection offered something for everyone, including some that were brewed on site. I went with the buffalo chicken pizza as a recommendation from the waitress. It was delicious and so big that I could not finish it all.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Stopped in for an early dinner and we’re seated immediately. The beer selection offered something for everyone, including some that were brewed on site. I went with the buffalo chicken pizza as a recommendation from the waitress. It was delicious and so big that I could not finish it all.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Steve Frick",
+                        "uri": "https://www.google.com/maps/contrib/108388445324024415498/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW8KoCSQtbssZqkkDA9Nm5yily2z1xDwf3UA3PzU6-NG94qAqwgDw=s128-c0x00000000-cc-rp-mo-ba5"
+                    },
+                    "publishTime": "2024-05-21T12:17:33Z"
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/reviews/ChdDSUhNMG9nS0VJQ0FnSURManBpbzRRRRAB",
+                    "relativePublishTimeDescription": "in the last week",
+                    "rating": 5,
+                    "text": {
+                        "text": "The Chimichurri Sirloin was fantastic... melt in your mouth! Green beans and potatoes were perfect sides! The Fish Fry was also equally delicious... both great dishes\n\n...A little bit of coleslaw fell onto the Chimichurri prior to photo",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "The Chimichurri Sirloin was fantastic... melt in your mouth! Green beans and potatoes were perfect sides! The Fish Fry was also equally delicious... both great dishes\n\n...A little bit of coleslaw fell onto the Chimichurri prior to photo",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Tom C",
+                        "uri": "https://www.google.com/maps/contrib/104882433649608414024/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXgdjKVCP6xTO3_MxpwJJpUp0ZvlrPiniOSjBTPi1QAHi-SUFul=s128-c0x00000000-cc-rp-mo"
+                    },
+                    "publishTime": "2024-06-27T17:42:10Z"
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/reviews/ChdDSUhNMG9nS0VJQ0FnSURUbzctTnhRRRAB",
+                    "relativePublishTimeDescription": "a month ago",
+                    "rating": 3,
+                    "text": {
+                        "text": "Came here for dinner to celebrate the anniversary of our wedding reception here 10 years ago. The food is always great but the service felt lacking. Tried to call every day for a week to make a reservation large enough for our party. Nobody answered and nobody returned my voicemails. I ended up making two reservations and asked to have them seated next to each other was told they couldn't accommodate that. The two tables ended up in different rooms. The whole meal, the table next to one of the two tables sat empty and by the time the meal was finished 45 minutes later, the restaurant was comically empty. If we had been asked to wait a few minutes to sit together, we happily would have. I understand weekends can be busy, especially when there's an event like the baseball game that night but in this case, it just felt like they didn't care to even try.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Came here for dinner to celebrate the anniversary of our wedding reception here 10 years ago. The food is always great but the service felt lacking. Tried to call every day for a week to make a reservation large enough for our party. Nobody answered and nobody returned my voicemails. I ended up making two reservations and asked to have them seated next to each other was told they couldn't accommodate that. The two tables ended up in different rooms. The whole meal, the table next to one of the two tables sat empty and by the time the meal was finished 45 minutes later, the restaurant was comically empty. If we had been asked to wait a few minutes to sit together, we happily would have. I understand weekends can be busy, especially when there's an event like the baseball game that night but in this case, it just felt like they didn't care to even try.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Bryan Meyer",
+                        "uri": "https://www.google.com/maps/contrib/111703363645281493530/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVRALlqppeCCA8WimmsBcQuAwsIvOQfZwYOmskub8DqJfvPmQk=s128-c0x00000000-cc-rp-mo-ba3"
+                    },
+                    "publishTime": "2024-05-27T09:27:09Z"
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/reviews/ChZDSUhNMG9nS0VJQ0FnSUQxbHN1SFhREAE",
+                    "relativePublishTimeDescription": "5 months ago",
+                    "rating": 3,
+                    "text": {
+                        "text": "Did not enjoy the last time here. I came on New Year's Eve right after main dinner hours and there wasn't a lot of people there. The server ruined the entire meal and I would not be back.\n\nShe was inattentive, never offered refills, never brought water, she brought the appetizer and literally brought out the entree within 10 minutes. Checked back once less than a minute after before I had even touched the entree and vanished before I even responded. I left to go to the bathroom and when I came back my food was stacked as if she started bussing the table. Clearly, I didn't want the food after they touched it. I asked for the check and a water when she finally came back over. She came back with the check. I put my card in the thing and she came back to process the card, took it came back and said to have a good night, and I had to ask again for water which I never received, I said politely, \"You must not have heard me, can I have a water\"? Absolutely ridiculous. When she came back she plopped it on the table and left in a huff. What is the rush?! It was 7:30pm.\n\nThe wings were really good but served with only 3 very small pieces of celery. The pot roast was good but VERY dry. Combined with the fact I had no drink for 3/4 of the meal, I couldn't enjoy it. The green beans were good but everything needed seasoning, very bland. I should also mention that the prices were outrageous, not a good value at all. I believe it was 8 wings for $18. That's robbery especially in Buffalo!\n\nWorst experience I had out dining in recent memory. I had thought this was a much nicer place than it was. I had a good meal here during the summer with friends but apparently, they don't care about solo diners.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Did not enjoy the last time here. I came on New Year's Eve right after main dinner hours and there wasn't a lot of people there. The server ruined the entire meal and I would not be back.\n\nShe was inattentive, never offered refills, never brought water, she brought the appetizer and literally brought out the entree within 10 minutes. Checked back once less than a minute after before I had even touched the entree and vanished before I even responded. I left to go to the bathroom and when I came back my food was stacked as if she started bussing the table. Clearly, I didn't want the food after they touched it. I asked for the check and a water when she finally came back over. She came back with the check. I put my card in the thing and she came back to process the card, took it came back and said to have a good night, and I had to ask again for water which I never received, I said politely, \"You must not have heard me, can I have a water\"? Absolutely ridiculous. When she came back she plopped it on the table and left in a huff. What is the rush?! It was 7:30pm.\n\nThe wings were really good but served with only 3 very small pieces of celery. The pot roast was good but VERY dry. Combined with the fact I had no drink for 3/4 of the meal, I couldn't enjoy it. The green beans were good but everything needed seasoning, very bland. I should also mention that the prices were outrageous, not a good value at all. I believe it was 8 wings for $18. That's robbery especially in Buffalo!\n\nWorst experience I had out dining in recent memory. I had thought this was a much nicer place than it was. I had a good meal here during the summer with friends but apparently, they don't care about solo diners.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Christopher Martone (Starcrescendo)",
+                        "uri": "https://www.google.com/maps/contrib/107569438180581849297/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWgg0QmVyw_sivdOBOdwYpWh1zeF3703OQAvfIkN-QO6SQgv9e_=s128-c0x00000000-cc-rp-mo-ba5"
+                    },
+                    "publishTime": "2024-01-06T22:50:52Z"
+                }
+            ],
+            "photos": [
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/photos/AUc7tXWVFDErqyPC_YzxwCuoQatcWzUVvBjaPtVci_ONI96oLb3svPmoxY04MKNJgkENwTQunsUE0wJ3zOFhMEVwjS841RHL55WX3VOFNhwOLkWJU9u62N4WyZWSwH8cCfMYak6TMvi26voiKJeYXmiDtjOvi_qw199JkDrZ",
+                    "widthPx": 4080,
+                    "heightPx": 2953,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Michael Lee",
+                            "uri": "//maps.google.com/maps/contrib/117535772467995380769",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWi8DVf7x2ALcfTiKLXqRj-eK6PLASbZAW32LTUbEne4hQfTG9QkA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/photos/AUc7tXXBZmbu6VOcWRBe7-HX9JAvc1yKCYDSkHiFF11asQE26OrYeIKJmqj586dsDh5sgyhantCWvE1Nv29qe0y545wo4OmmrhQ92NWkvbZsQ1GKUL1753igvt3PsfOo34RP73x_6tl1IA0O7-bRQI1lF-AAL1HaoqsJwx7T",
+                    "widthPx": 2048,
+                    "heightPx": 1152,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Pearl Street Grill & Brewery",
+                            "uri": "//maps.google.com/maps/contrib/117683814725125039420",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWY08-B6PfuksXUFEqCkZTwkbMh2txHAbm_gPWSbwh6uzRcvQs=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/photos/AUc7tXUQS11UOsiNiTUPxzV1OsxdWmMPDH4XZO0NCa7T9hft954sXTrHUgTZW9b-yXncxk3hY5WpoS5Qnn-mOuTSmFXjrS0PV6FvnOfffQd6QXVR5qfRCLmkDNBvVusc0qbo9O9aoHMvyMR8Uu0AP-p_UjyF-Jv82aio4vYb",
+                    "widthPx": 4000,
+                    "heightPx": 3000,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Amanda E McCosh",
+                            "uri": "//maps.google.com/maps/contrib/114682832281915778602",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVf21hS3rkKmpHGRpWxwgmGeT2AsnEMTL4VfmgaTODtNoLCtFTi=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/photos/AUc7tXXWzXqbqEI-9GXpf9YrxFmLjzjWZ_PsfWdhZFy_4IJl3pQUP1wzfQvVe68RjFZ_atjPNuUkNkOLi4hL6O0491hZWialJakapTa3zeY6pp8-2Jc0mMQ8HNqhAmhgMDXzKdw3NtOI7k-ilOf9sBI8i3uJ1l8rjublOJ6c",
+                    "widthPx": 600,
+                    "heightPx": 338,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Pearl Street Grill & Brewery",
+                            "uri": "//maps.google.com/maps/contrib/117683814725125039420",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWY08-B6PfuksXUFEqCkZTwkbMh2txHAbm_gPWSbwh6uzRcvQs=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/photos/AUc7tXUs_HGPLXUFYK2-VuGjsv4K-uKGUZclTAgjz4waT9USvRmS-UJgCTAkCEerhlUvNxi35GAj9rWENNaLvlYpAsTnFJIRbDnupKCwF96i0TTME_Ynpdr4DgGLA97ahWqE5zggSF5KBROIK93SfIs8lF1SwjSiA4HaYrMF",
+                    "widthPx": 3448,
+                    "heightPx": 2818,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Tom C",
+                            "uri": "//maps.google.com/maps/contrib/104882433649608414024",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXgdjKVCP6xTO3_MxpwJJpUp0ZvlrPiniOSjBTPi1QAHi-SUFul=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/photos/AUc7tXUvT9Y5xWqEVYdAUExPLJb_XsjHFSLC1htLCvusuzWspZHd_RKs225Cj6U4tBTvfto3g-DuQhIlTcgsXNVJkkQoXg_qgjiFmJIyl3_6T6JfDElGBwwppMhwGbt-QErd273IgzW90fTdkRHUgGwoJoQRc-BKuyiIBTNq",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Sally Truong",
+                            "uri": "//maps.google.com/maps/contrib/100773740013077388206",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUfxKZNLqeqtzPAFD1F8d_Zmzzo3rdFl2E0Wn2VxGJcVTFX4rG8gQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/photos/AUc7tXUOX8-ovDs2lwt12VXTFz2gqTgu8l1XWYvG0wEL5iLEQQiyGjZKEqxsuznSJ62N09WQMhjYf9Dx4u1pMftefpyezSYzKMy9QEfta3tOUd8prSP4Y_392q1KGZGlQQcNlqbpJHq8Jw8Pi2CGTAoG3qdFIAtgR8ystql2",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Ting Krog",
+                            "uri": "//maps.google.com/maps/contrib/106652796316293531444",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWLBrBOGqBIFMeG_guap3niyz65CCj_-8-gzBdbcCT_vVFva84O=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/photos/AUc7tXU8hOW8WlvQJc2GXaWoydT26RrAI_r6DC7vM9ijTyGrrcTSM_rvhhXY8eq4uk-vMQTuOhekmu_M1uEnIAOyuqJMfhGzB41YaSAPjXkfqLxbp-ntUgREbjk1MVwVO4iM50ZCiYTpS3BMatldJ_J4mMlMakroe-BdRyJj",
+                    "widthPx": 6016,
+                    "heightPx": 4016,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Christopher Kensington",
+                            "uri": "//maps.google.com/maps/contrib/113123480394569172147",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV_TiNVnj2IzS4JVqeqDZjLc2RJvP2Yrd83c0ugoUa0VUnC0fA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/photos/AUc7tXVYO9WgVVjRffwoifccUF-Q75ZRXZ3V1ZPYueTCTrWXytzWCNlPdACL4C11vdoD7_ZI-Qhqpux2DC8DZEu09T7mI6qaPId2R975Y7E84mem8WGa5reuUAMaaS-Ls9J7xugd1yyNcfYo_CxM1cMsjN5L48UVjGfs7q5d",
+                    "widthPx": 3585,
+                    "heightPx": 2190,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Holly Mosher",
+                            "uri": "//maps.google.com/maps/contrib/113029837139342720134",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVSxENuIz4MPp_qlVcD93QbTDXP58ia7iNq6HthmbTFZWRsNiRgwg=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJhbDE6VkS04kRXAmXmRSA6Hw/photos/AUc7tXXYB-5Vb93-aWCTDtQKM36GOOFfyQ9ZOg56_v8t12Oag54u1X8p2L66kQ15hdM7AuC-fEpJS-lThsRSJjb2JOJOARzAD_gtLHLK0mTRQd_LoaDt3__uitvXyoQr7XZ2RLqYcz9FGOtNZ7sUYjvgInvcdtCo8ac47igY",
+                    "widthPx": 1879,
+                    "heightPx": 2307,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Kathryn Appenheimer",
+                            "uri": "//maps.google.com/maps/contrib/116408839118384663029",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUJgL_JHxms5wbg3jprNPG1A7PgeUK4allhkiSNIMVYAlMGW2XYvg=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ],
+            "outdoorSeating": true,
+            "menuForChildren": true,
+            "servesCocktails": true,
+            "servesDessert": true,
+            "goodForChildren": true,
+            "allowsDogs": false,
+            "restroom": true,
+            "goodForGroups": true,
+            "goodForWatchingSports": true,
+            "paymentOptions": {
+                "acceptsCreditCards": true,
+                "acceptsDebitCards": true,
+                "acceptsCashOnly": false,
+                "acceptsNfc": true
+            },
+            "parkingOptions": {
+                "paidParkingLot": true,
+                "paidStreetParking": true,
+                "valetParking": false
+            },
+            "accessibilityOptions": {
+                "wheelchairAccessibleParking": true,
+                "wheelchairAccessibleEntrance": true,
+                "wheelchairAccessibleRestroom": true
+            },
+            "generativeSummary": {
+                "overview": {
+                    "text": "Casual restaurant and brewery offering classic pub fare, plus a rooftop patio and trivia nights.",
+                    "languageCode": "en-US"
+                }
+            }
+        },
+        {
+            "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk",
+            "id": "ChIJg0yJ204S04kRAOqqD6OE3Gk",
+            "types": [
+                "hotel",
+                "lodging",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "nationalPhoneNumber": "(716) 954-4900",
+            "internationalPhoneNumber": "+1 716-954-4900",
+            "formattedAddress": "210 Franklin St, Buffalo, NY 14202, USA",
+            "addressComponents": [
+                {
+                    "longText": "210",
+                    "shortText": "210",
+                    "types": [
+                        "street_number"
+                    ],
+                    "languageCode": "en-US"
+                },
+                {
+                    "longText": "Franklin Street",
+                    "shortText": "Franklin St",
+                    "types": [
+                        "route"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Downtown",
+                    "shortText": "Downtown",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Buffalo",
+                    "shortText": "Buffalo",
+                    "types": [
+                        "locality",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Erie County",
+                    "shortText": "Erie County",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "New York",
+                    "shortText": "NY",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "United States",
+                    "shortText": "US",
+                    "types": [
+                        "country",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "14202",
+                    "shortText": "14202",
+                    "types": [
+                        "postal_code"
+                    ],
+                    "languageCode": "en-US"
+                }
+            ],
+            "plusCode": {
+                "globalCode": "87J3V4QF+RJ",
+                "compoundCode": "V4QF+RJ Buffalo, NY, USA"
+            },
+            "location": {
+                "latitude": 42.8895069,
+                "longitude": -78.8759724
+            },
+            "viewport": {
+                "low": {
+                    "latitude": 42.888131719708504,
+                    "longitude": -78.87726963029152
+                },
+                "high": {
+                    "latitude": 42.890829680291496,
+                    "longitude": -78.87457166970852
+                }
+            },
+            "rating": 4.3,
+            "googleMapsUri": "https://maps.google.com/?cid=7628117704736172544",
+            "websiteUri": "https://curtisshotel.com/",
+            "regularOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 0,
+                            "hour": 0,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: Open 24 hours",
+                    "Tuesday: Open 24 hours",
+                    "Wednesday: Open 24 hours",
+                    "Thursday: Open 24 hours",
+                    "Friday: Open 24 hours",
+                    "Saturday: Open 24 hours",
+                    "Sunday: Open 24 hours"
+                ]
+            },
+            "utcOffsetMinutes": -240,
+            "adrFormatAddress": "<span class=\"street-address\">210 Franklin St</span>, <span class=\"locality\">Buffalo</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">14202</span>, <span class=\"country-name\">USA</span>",
+            "businessStatus": "OPERATIONAL",
+            "userRatingCount": 1742,
+            "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "iconBackgroundColor": "#909CE1",
+            "displayName": {
+                "text": "Curtiss Hotel",
+                "languageCode": "en"
+            },
+            "primaryTypeDisplayName": {
+                "text": "Hotel",
+                "languageCode": "en-US"
+            },
+            "currentOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 0,
+                            "hour": 0,
+                            "minute": 0,
+                            "truncated": true,
+                            "date": {
+                                "year": 2024,
+                                "month": 6,
+                                "day": 30
+                            }
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 23,
+                            "minute": 59,
+                            "truncated": true,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 6
+                            }
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: Open 24 hours",
+                    "Tuesday: Open 24 hours",
+                    "Wednesday: Open 24 hours",
+                    "Thursday: Open 24 hours",
+                    "Friday: Open 24 hours",
+                    "Saturday: Open 24 hours",
+                    "Sunday: Open 24 hours"
+                ]
+            },
+            "primaryType": "hotel",
+            "shortFormattedAddress": "210 Franklin St, Buffalo",
+            "editorialSummary": {
+                "text": "Ornate boutique hotel in a landmark 1913 building offering a hip rooftop bar & upscale dining.",
+                "languageCode": "en"
+            },
+            "reviews": [
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/reviews/ChdDSUhNMG9nS0VJQ0FnSUN6cDkzazhnRRAB",
+                    "relativePublishTimeDescription": "3 weeks ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "A great hotel with fun details and old school charm.  While the ‘hot spring’ seemed more like a giant hot tub it didn’t matter — it was great!   The beds were very comfortable too.  We were able to walk around and felt very safe.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "A great hotel with fun details and old school charm.  While the ‘hot spring’ seemed more like a giant hot tub it didn’t matter — it was great!   The beds were very comfortable too.  We were able to walk around and felt very safe.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Savannah Daniels",
+                        "uri": "https://www.google.com/maps/contrib/108651499199618514082/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUch9GZ2D2QtX5YcRGDjQFlrQ9ndEnjeeh6mN8Llhpv7LVQ5RE=s128-c0x00000000-cc-rp-mo"
+                    },
+                    "publishTime": "2024-06-05T22:37:39Z"
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/reviews/ChZDSUhNMG9nS0VJQ0FnSUNqek5lcVpREAE",
+                    "relativePublishTimeDescription": "2 months ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "Luxurious hotel. 15 minute walk to Canal side. Valet was quick. Ambiance was great. Clean. Very courteous staff. I called last minute for a room accommodation and they were able to meet it. Definitely worth the price. Neat pool area. Really cool spinning bar",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Luxurious hotel. 15 minute walk to Canal side. Valet was quick. Ambiance was great. Clean. Very courteous staff. I called last minute for a room accommodation and they were able to meet it. Definitely worth the price. Neat pool area. Really cool spinning bar",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Cody Meehan",
+                        "uri": "https://www.google.com/maps/contrib/109201604973841559280/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKu9j0cSkzDmLerGELq4yABY2d3gFBLmkcv4Fq8Q9KMHycq7g=s128-c0x00000000-cc-rp-mo"
+                    },
+                    "publishTime": "2024-04-18T14:28:47Z"
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/reviews/ChZDSUhNMG9nS0VJQ0FnSUM5enNYd1VREAE",
+                    "relativePublishTimeDescription": "3 months ago",
+                    "rating": 4,
+                    "text": {
+                        "text": "Everyone was extremely courteous and helpful. The room they gave me was not perfect, something you'd expect from an upscale hotel. Although the shower was FANTASTIC!!! I have not seen one like this anywhere. The bed and pillows were very comfortable.\nThe hotel could use some new carpeting.\nThe restaurant was very good. I enjoyed lunch there and the service was top notch.\nI would most definitely stay at the Curtiss Hotel when my travels take me to Buffalo.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Everyone was extremely courteous and helpful. The room they gave me was not perfect, something you'd expect from an upscale hotel. Although the shower was FANTASTIC!!! I have not seen one like this anywhere. The bed and pillows were very comfortable.\nThe hotel could use some new carpeting.\nThe restaurant was very good. I enjoyed lunch there and the service was top notch.\nI would most definitely stay at the Curtiss Hotel when my travels take me to Buffalo.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Stephen Schlanger",
+                        "uri": "https://www.google.com/maps/contrib/116080802028842694447/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJ-eF6OBfLEkQfQ3Q_SV6JUie7JxbClpHHNrVhSa30WCqZlnQ=s128-c0x00000000-cc-rp-mo"
+                    },
+                    "publishTime": "2024-03-05T17:22:48Z"
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ5aG9xQkNBEAE",
+                    "relativePublishTimeDescription": "3 months ago",
+                    "rating": 4,
+                    "text": {
+                        "text": "Weird little hotel. Interior decorating reminded us of The Great Gatsby (2013) in that it was glamorous but kinda instantly dated and strange out of context. It seems due for an update or at least a very thorough cleaning in some areas. The room itself was very clean. The bed was comfortable and the sheets felt fresh and clean - and the shower was super luxurious. The staff was very welcoming and helpful - even staff we would just bump into in the elevator were quick to offer help. The hot springs were funny - just a big hot tub - but of course it’s lovely to get to sit in a hot tub on a cool day. The area around the tub in particular felt like it could use a thorough cleaning. We would probably just go for the Hilton if we come back to Buffalo but it was a fun experience to come here once, especially at a decent discount through Priceline.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Weird little hotel. Interior decorating reminded us of The Great Gatsby (2013) in that it was glamorous but kinda instantly dated and strange out of context. It seems due for an update or at least a very thorough cleaning in some areas. The room itself was very clean. The bed was comfortable and the sheets felt fresh and clean - and the shower was super luxurious. The staff was very welcoming and helpful - even staff we would just bump into in the elevator were quick to offer help. The hot springs were funny - just a big hot tub - but of course it’s lovely to get to sit in a hot tub on a cool day. The area around the tub in particular felt like it could use a thorough cleaning. We would probably just go for the Hilton if we come back to Buffalo but it was a fun experience to come here once, especially at a decent discount through Priceline.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Kenny Boothby",
+                        "uri": "https://www.google.com/maps/contrib/104337621932789436542/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIiVSBOWBPq4C4Z3pe800AYPRnRaBbn45Jy1Oy39G1uElriwA=s128-c0x00000000-cc-rp-mo"
+                    },
+                    "publishTime": "2024-03-16T00:37:02Z"
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/reviews/ChdDSUhNMG9nS0VJQ0FnSUN6OXQ3aTR3RRAB",
+                    "relativePublishTimeDescription": "4 weeks ago",
+                    "rating": 2,
+                    "text": {
+                        "text": "Beautiful hotel, and beautiful rooftop bar. Unfortunately, our bartender had a horrible attitude. Her name on my receipt was Petya. I work as a server and I am always pleasant to other people who work in this industry. I have no idea why my drinks were getting slammed down, along with the check book after I paid. Lots of attitude from our bartender. Too bad I won’t be back because of her. Other bartenders appeared to be nice, hopefully when you come here you get a nice one.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Beautiful hotel, and beautiful rooftop bar. Unfortunately, our bartender had a horrible attitude. Her name on my receipt was Petya. I work as a server and I am always pleasant to other people who work in this industry. I have no idea why my drinks were getting slammed down, along with the check book after I paid. Lots of attitude from our bartender. Too bad I won’t be back because of her. Other bartenders appeared to be nice, hopefully when you come here you get a nice one.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Alyssa H",
+                        "uri": "https://www.google.com/maps/contrib/106342981896962695524/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKMocPRyHQVUuIJZLz2jYH6xtKqTd-Xs53SNJtNnVk46ovlFg=s128-c0x00000000-cc-rp-mo"
+                    },
+                    "publishTime": "2024-06-02T00:27:34Z"
+                }
+            ],
+            "photos": [
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/photos/AUc7tXWcn-RpwijuRlG1FN6e5KK5fijOi7oCcS1vBA4Ge7korNpOV4mPYq5ncdvVUsrCW0i1_2itNwqQrsaxKoiSLlOubG4SDZ5Iuhhw6DZtbwnQOiDuORQwFcOyqcSPboh6nfeWQy6WjK6vv92NzIQau3X3sMTKe9RxQ_ty",
+                    "widthPx": 2000,
+                    "heightPx": 1335,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Curtiss Hotel",
+                            "uri": "//maps.google.com/maps/contrib/104907360903624998163",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVBIRhYpLIAC_75Rn-ttCbPfsx4ki9kjxQ2w9nh_uGCzSP4FsMP=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/photos/AUc7tXUkxLHfeYbtZGXULjP_te7LW-NRsGsbOWW4slo6AdLZoiP_IWle_lQ3rqCZYBxT1Snt1lVmqYzvrogN9mBRHmtgC-W0oEXlO-kzmfCfFYZU8xVXm27qpfUxS7ZqogHkt0haEOFgTT6fV5BgzqkAJatyrZLaMTVFwfPW",
+                    "widthPx": 1050,
+                    "heightPx": 653,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Curtiss Hotel",
+                            "uri": "//maps.google.com/maps/contrib/104907360903624998163",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVBIRhYpLIAC_75Rn-ttCbPfsx4ki9kjxQ2w9nh_uGCzSP4FsMP=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/photos/AUc7tXWCxe-SWtaY1QeKQrbA_uhjrobQaLGOYLrZFzwhXGsOZyBAlPBDBhRDA8b0_zN_drnq0r-oN9TZ8DmNbt9sK79pkA9bWOWaVNNuiH-5DViAQNaQ5H4WYmOvSAzcYCzNNdo620rde-8oDUF5LoZ0Rtysimv9SvYEFuaU",
+                    "widthPx": 4000,
+                    "heightPx": 1800,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Diane Dioguardi",
+                            "uri": "//maps.google.com/maps/contrib/102885082814487949792",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUFzGPFV4zqHb3IY8nEalzfn_xNLjxfH-B7uxYx-HjRlz7S5c4=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/photos/AUc7tXWbq8TRkwCFGOuRQMGuoTzw98ZxL8aLdpmkRLbFprpb08uAMq8_RKgYh0duUN5eIL_5VTwqu7pGTisYTiqaXuGBs3sQV2CFbJBOIkg_0YWe-LJJYBcHiZ9W33kXQCdSAquxsitxNfDiBCdnBjsXShElzsIylT5ISH9c",
+                    "widthPx": 2880,
+                    "heightPx": 1922,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Curtiss Hotel",
+                            "uri": "//maps.google.com/maps/contrib/104907360903624998163",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVBIRhYpLIAC_75Rn-ttCbPfsx4ki9kjxQ2w9nh_uGCzSP4FsMP=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/photos/AUc7tXXj_27SXUa_wMsBfJJaIxUoFMn6fd7-u-QuMULdL6N5IejFNaOBxMpk-5KAwByGwIUrPiQx1EWvjntXXc8LzD7D4JWQcIlT7csNPFtdlkNDHQ6S7RSTCMD3w75GaQ6WOfQtj49Cdy6qrsvtNj2CDf4meS_Wg2Zr2y8t",
+                    "widthPx": 2048,
+                    "heightPx": 2060,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Curtiss Hotel",
+                            "uri": "//maps.google.com/maps/contrib/104907360903624998163",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVBIRhYpLIAC_75Rn-ttCbPfsx4ki9kjxQ2w9nh_uGCzSP4FsMP=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/photos/AUc7tXXqHG_BP2PZxho8vSdRnebiDl_PNcFIQPNiI07iXG8HcoZQimJMu7pjY7tyjkH1iwPj3WyKKFuVSRsGhD2tGbHL-JURsR9IGOMCflKQLEVuYIyjXZyTCityLhG8YFajkgJHnmBg34X4x3DUAjdyJfczhw72I5e-Xex4",
+                    "widthPx": 2880,
+                    "heightPx": 1922,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Curtiss Hotel",
+                            "uri": "//maps.google.com/maps/contrib/104907360903624998163",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVBIRhYpLIAC_75Rn-ttCbPfsx4ki9kjxQ2w9nh_uGCzSP4FsMP=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/photos/AUc7tXUT08-6oDnAMUKAry98gxOrBGzVKIsm6uB7Do01o3FkgsLocczqgMPD04dwJrxRXwomU9WQjhkTzShiWKKOkGGlNCaro53UZlFkgXmp1si4OWpYsdliQ1-TDhVas9sLN6MZJ4tMh_AqvCVrHoXwLvorhFIECTtR53Nx",
+                    "widthPx": 1050,
+                    "heightPx": 701,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Curtiss Hotel",
+                            "uri": "//maps.google.com/maps/contrib/104907360903624998163",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVBIRhYpLIAC_75Rn-ttCbPfsx4ki9kjxQ2w9nh_uGCzSP4FsMP=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/photos/AUc7tXXgtoW11lr33Bdh79WNES5dtoSW68xsLRC8mzlhaX7xfGY0hCxK_Mx1OFSPmYyFJU_UvT-zWLqwUWtOwJGXi41WanmrMzXeO-qgG8cOD95uW-2KTbHm26bWe6CHPZISrBZDGGy5FL6o2ZtCAnTRM4J7EhJE4dak5nvX",
+                    "widthPx": 1050,
+                    "heightPx": 715,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Curtiss Hotel",
+                            "uri": "//maps.google.com/maps/contrib/104907360903624998163",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVBIRhYpLIAC_75Rn-ttCbPfsx4ki9kjxQ2w9nh_uGCzSP4FsMP=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/photos/AUc7tXVh37CZUaFR-WtUvLoWxWFwkdJ2Ni2P8zEu-W7P6sqSIzNsUWOwTlpyfzxA-Hu-e-T-TPJNiasUb0xQtzd2ZqEn1NHvMwW5N3kiNpttKXghGNB7gbkZox3F3bcbWdLFPv90JLhmRgXWHjvzFOj4UbamP3ylJ1DdUDju",
+                    "widthPx": 1050,
+                    "heightPx": 701,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Curtiss Hotel",
+                            "uri": "//maps.google.com/maps/contrib/104907360903624998163",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVBIRhYpLIAC_75Rn-ttCbPfsx4ki9kjxQ2w9nh_uGCzSP4FsMP=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJg0yJ204S04kRAOqqD6OE3Gk/photos/AUc7tXV0yID7NKT8zSfxiDkX_nWyxMuovxYE-EXPFXc4-qA7aABPtGVr95-A7EkMU4arB1NhJapN8qGdX14Xv3oHpLzoQWj2lKV2iYQo5OsrFaEizO7DmAedhNKhqHOb2tA7EqIHIzLNhrftESPaUUqVdb--7Beyqp9eEzYy",
+                    "widthPx": 1797,
+                    "heightPx": 1349,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Curtiss Hotel",
+                            "uri": "//maps.google.com/maps/contrib/104907360903624998163",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVBIRhYpLIAC_75Rn-ttCbPfsx4ki9kjxQ2w9nh_uGCzSP4FsMP=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ],
+            "goodForChildren": false,
+            "paymentOptions": {
+                "acceptsCreditCards": true,
+                "acceptsDebitCards": true,
+                "acceptsCashOnly": false
+            },
+            "accessibilityOptions": {
+                "wheelchairAccessibleParking": true,
+                "wheelchairAccessibleEntrance": true
+            }
+        },
+        {
+            "name": "places/ChIJUezlo-sT04kROQFxv_nIl50",
+            "id": "ChIJUezlo-sT04kROQFxv_nIl50",
+            "types": [
+                "restaurant",
+                "american_restaurant",
+                "bar",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "nationalPhoneNumber": "(716) 436-7999",
+            "internationalPhoneNumber": "+1 716-436-7999",
+            "formattedAddress": "7 Scott St, Buffalo, NY 14203, USA",
+            "addressComponents": [
+                {
+                    "longText": "7",
+                    "shortText": "7",
+                    "types": [
+                        "street_number"
+                    ],
+                    "languageCode": "en-US"
+                },
+                {
+                    "longText": "Scott Street",
+                    "shortText": "Scott St",
+                    "types": [
+                        "route"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Downtown",
+                    "shortText": "Downtown",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Buffalo",
+                    "shortText": "Buffalo",
+                    "types": [
+                        "locality",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Erie County",
+                    "shortText": "Erie County",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "New York",
+                    "shortText": "NY",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "United States",
+                    "shortText": "US",
+                    "types": [
+                        "country",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "14203",
+                    "shortText": "14203",
+                    "types": [
+                        "postal_code"
+                    ],
+                    "languageCode": "en-US"
+                }
+            ],
+            "plusCode": {
+                "globalCode": "87J3V4GF+M9",
+                "compoundCode": "V4GF+M9 Buffalo, NY, USA"
+            },
+            "location": {
+                "latitude": 42.8766864,
+                "longitude": -78.8765038
+            },
+            "viewport": {
+                "low": {
+                    "latitude": 42.8755024197085,
+                    "longitude": -78.8776608302915
+                },
+                "high": {
+                    "latitude": 42.878200380291496,
+                    "longitude": -78.8749628697085
+                }
+            },
+            "rating": 4.6,
+            "googleMapsUri": "https://maps.google.com/?cid=11355765960422261049",
+            "websiteUri": "https://taprooms.stbcbeer.com/southern-tier-brewery-buffalo-72235d6a76d8",
+            "regularOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 0,
+                            "hour": 10,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 0,
+                            "hour": 20,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 15,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 22,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 15,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 22,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 15,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 22,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 11,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 22,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 11,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 23,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 11,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 23,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 3:00 – 10:00 PM",
+                    "Tuesday: 3:00 – 10:00 PM",
+                    "Wednesday: 3:00 – 10:00 PM",
+                    "Thursday: 11:00 AM – 10:00 PM",
+                    "Friday: 11:00 AM – 11:00 PM",
+                    "Saturday: 11:00 AM – 11:00 PM",
+                    "Sunday: 10:00 AM – 8:00 PM"
+                ]
+            },
+            "utcOffsetMinutes": -240,
+            "adrFormatAddress": "<span class=\"street-address\">7 Scott St</span>, <span class=\"locality\">Buffalo</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">14203</span>, <span class=\"country-name\">USA</span>",
+            "businessStatus": "OPERATIONAL",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "userRatingCount": 1257,
+            "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "iconBackgroundColor": "#FF9E67",
+            "displayName": {
+                "text": "Southern Tier Brewery Buffalo",
+                "languageCode": "en"
+            },
+            "primaryTypeDisplayName": {
+                "text": "Restaurant",
+                "languageCode": "en-US"
+            },
+            "takeout": true,
+            "delivery": false,
+            "dineIn": true,
+            "reservable": true,
+            "servesBreakfast": false,
+            "servesLunch": true,
+            "servesDinner": true,
+            "servesBeer": true,
+            "servesWine": true,
+            "servesBrunch": true,
+            "servesVegetarianFood": true,
+            "currentOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 0,
+                            "hour": 10,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 6,
+                                "day": 30
+                            }
+                        },
+                        "close": {
+                            "day": 0,
+                            "hour": 20,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 6,
+                                "day": 30
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 15,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 1
+                            }
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 22,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 1
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 15,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 2
+                            }
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 22,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 2
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 15,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 3
+                            }
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 22,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 3
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 11,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 4
+                            }
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 22,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 4
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 11,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 5
+                            }
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 23,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 5
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 11,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 6
+                            }
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 23,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 6
+                            }
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 3:00 – 10:00 PM",
+                    "Tuesday: 3:00 – 10:00 PM",
+                    "Wednesday: 3:00 – 10:00 PM",
+                    "Thursday: 11:00 AM – 10:00 PM",
+                    "Friday: 11:00 AM – 11:00 PM",
+                    "Saturday: 11:00 AM – 11:00 PM",
+                    "Sunday: 10:00 AM – 8:00 PM"
+                ]
+            },
+            "currentSecondaryOpeningHours": [
+                {
+                    "openNow": true,
+                    "periods": [
+                        {
+                            "open": {
+                                "day": 0,
+                                "hour": 10,
+                                "minute": 0,
+                                "date": {
+                                    "year": 2024,
+                                    "month": 6,
+                                    "day": 30
+                                }
+                            },
+                            "close": {
+                                "day": 0,
+                                "hour": 15,
+                                "minute": 0,
+                                "date": {
+                                    "year": 2024,
+                                    "month": 6,
+                                    "day": 30
+                                }
+                            }
+                        }
+                    ],
+                    "weekdayDescriptions": [
+                        "Monday: Closed",
+                        "Tuesday: Closed",
+                        "Wednesday: Closed",
+                        "Thursday: Closed",
+                        "Friday: Closed",
+                        "Saturday: Closed",
+                        "Sunday: 10:00 AM – 3:00 PM"
+                    ],
+                    "secondaryHoursType": "BRUNCH"
+                }
+            ],
+            "regularSecondaryOpeningHours": [
+                {
+                    "openNow": true,
+                    "periods": [
+                        {
+                            "open": {
+                                "day": 0,
+                                "hour": 10,
+                                "minute": 0
+                            },
+                            "close": {
+                                "day": 0,
+                                "hour": 15,
+                                "minute": 0
+                            }
+                        }
+                    ],
+                    "weekdayDescriptions": [
+                        "Monday: Closed",
+                        "Tuesday: Closed",
+                        "Wednesday: Closed",
+                        "Thursday: Closed",
+                        "Friday: Closed",
+                        "Saturday: Closed",
+                        "Sunday: 10:00 AM – 3:00 PM"
+                    ],
+                    "secondaryHoursType": "BRUNCH"
+                }
+            ],
+            "primaryType": "restaurant",
+            "shortFormattedAddress": "7 Scott St, Buffalo",
+            "editorialSummary": {
+                "text": "Lively venue with a brewery, beer-inspired food & televised sports, plus an on-site gift shop.",
+                "languageCode": "en"
+            },
+            "reviews": [
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/reviews/ChZDSUhNMG9nS0VJQ0FnSUN6dGJhZldBEAE",
+                    "relativePublishTimeDescription": "2 weeks ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "Lauren (bartender) and manager Jared were absolutely fantastic . The half priced apps were absolutely delicious! The fried pickle chips and loaded chicken nachos filled me up and left me happy! Sarah (another manager) greeted me and sat me wherever I wanted and made me feel so welcome ! 5 out of 5 stars!",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Lauren (bartender) and manager Jared were absolutely fantastic . The half priced apps were absolutely delicious! The fried pickle chips and loaded chicken nachos filled me up and left me happy! Sarah (another manager) greeted me and sat me wherever I wanted and made me feel so welcome ! 5 out of 5 stars!",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Frankie Williams",
+                        "uri": "https://www.google.com/maps/contrib/108410580423371048497/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJCeOGG2fNJbBddbcLDNmpSV3RqzsQtnti9PT38oVu9ph15xQ=s128-c0x00000000-cc-rp-mo-ba2"
+                    },
+                    "publishTime": "2024-06-10T20:34:11Z"
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/reviews/ChZDSUhNMG9nS0VJQ0FnSUNsaTktOEF3EAE",
+                    "relativePublishTimeDescription": "7 months ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "Located by the Marriott, Courtyard & KeyBank center. Sports bar with TV’s everywhere. Plenty of tap beers to choose from. Food was good. We had the chili, Fish & chips, (really big piece of Fish) & the pasta dish, all were good. Meatball appetizer needed some seasoning though. Sat off to the side, main dining area with the big screen TV s was extremely loud. Will go back again.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Located by the Marriott, Courtyard & KeyBank center. Sports bar with TV’s everywhere. Plenty of tap beers to choose from. Food was good. We had the chili, Fish & chips, (really big piece of Fish) & the pasta dish, all were good. Meatball appetizer needed some seasoning though. Sat off to the side, main dining area with the big screen TV s was extremely loud. Will go back again.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Christopher",
+                        "uri": "https://www.google.com/maps/contrib/109476891504846851689/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWXJ7chCwRTG-gFmPEC76A5lZ9sUda3L4CwE83mEMS0QCli5j0v=s128-c0x00000000-cc-rp-mo-ba6"
+                    },
+                    "publishTime": "2023-11-27T02:35:48Z"
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/reviews/ChdDSUhNMG9nS0VJQ0FnSUNMb2NDUXJ3RRAB",
+                    "relativePublishTimeDescription": "a week ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "What a great place to eat!  We were a party of 12 and the service was suburb.\nCole, our server, took our drink orders as soon as we were seated and came back with them right away. He took our food orders which again was very quickly cooked and served immediately.\nEveryone raved how good their food was.  Joe, the general manager, as well as Cole are professional, curtious, and friendly.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "What a great place to eat!  We were a party of 12 and the service was suburb.\nCole, our server, took our drink orders as soon as we were seated and came back with them right away. He took our food orders which again was very quickly cooked and served immediately.\nEveryone raved how good their food was.  Joe, the general manager, as well as Cole are professional, curtious, and friendly.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Leona Ferranti",
+                        "uri": "https://www.google.com/maps/contrib/109685894027621459734/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVUgI_637GiHsQ4h1XyAlI3VMf-wNrfm7MDa8I2gdlTDj_57QUN=s128-c0x00000000-cc-rp-mo-ba4"
+                    },
+                    "publishTime": "2024-06-19T22:27:00Z"
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/reviews/ChdDSUhNMG9nS0VJQ0FnSURqNzV1OG9BRRAB",
+                    "relativePublishTimeDescription": "a month ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "We came here after a Bandits game and it was packed. I would expect nothing less! Our server was amazing and very attentive. The food was very good and it came out of the kitchen very quickly without being under cooked. Their beer selection was also phenomenal, with plenty of options to try",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "We came here after a Bandits game and it was packed. I would expect nothing less! Our server was amazing and very attentive. The food was very good and it came out of the kitchen very quickly without being under cooked. Their beer selection was also phenomenal, with plenty of options to try",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Daniel Torsell",
+                        "uri": "https://www.google.com/maps/contrib/103417802459735295993/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWrEu2j3KW72Spe_H7kZLtz-c0gdxwxusci1__A4M25qQhU42MP=s128-c0x00000000-cc-rp-mo-ba4"
+                    },
+                    "publishTime": "2024-05-09T04:43:06Z"
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/reviews/ChZDSUhNMG9nS0VJQ0FnSURwd0ptbFhREAE",
+                    "relativePublishTimeDescription": "10 months ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "Come for the drinks, stay for the food! First time at Southern Tier in downtown Buffalo and it did not disappoint! As soon as you walk in, you'll see multiple TVs adorning every wall so you won't miss a minute of your favorite game. The food is great, but the drinks are legendary. From Pumking to Vanilla Scoop to 8 Days a Week, there's something for everyone! Highly recommended for anyone who enjoys breweries and sports! 😄",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Come for the drinks, stay for the food! First time at Southern Tier in downtown Buffalo and it did not disappoint! As soon as you walk in, you'll see multiple TVs adorning every wall so you won't miss a minute of your favorite game. The food is great, but the drinks are legendary. From Pumking to Vanilla Scoop to 8 Days a Week, there's something for everyone! Highly recommended for anyone who enjoys breweries and sports! 😄",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Chris Platten",
+                        "uri": "https://www.google.com/maps/contrib/114736459785194785307/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJZ45mk4DVEFTOmrsdmB3fp37aB_2LjEi0ZvC1Em8Uc1kEhjQ=s128-c0x00000000-cc-rp-mo-ba4"
+                    },
+                    "publishTime": "2023-08-14T03:10:48Z"
+                }
+            ],
+            "photos": [
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/photos/AUc7tXUF0a7eZ0_weg3meSA2Y9_ghXmsIGZiNnVJ15sYYEhxuoM9lUBIFzF_D7SaDL3iMo58aVGE_sHHBPjVsq78NEZqVmhn92__nPFbkwcxrGA6N5iLsLhKVYqUqpbizvK2IFVuilFaVrkh1_7X6ZqaZGCPw_vpoxAC7ra9",
+                    "widthPx": 1256,
+                    "heightPx": 943,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Southern Tier Brewery Buffalo",
+                            "uri": "//maps.google.com/maps/contrib/107427027747794311457",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWjJGD00JQQif436Oiwh-C5HyXxgr5ecarItPlDJ2VfsDEVLRY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/photos/AUc7tXXKRLfnluDQ0xHNeDqpyNxuyyczFQdBUB8nD5oVV9LWXR9EMFxmzjHHj8_UAvJZPzbSkiJcVw-EQ8pqToKbGDKYDfJX3gGi1aYQljon9w-wYo6r8xO0YXiQQP1RjYtNg1LnsvNHLFFRWDryJttN3Wr7VbJ-TBsXfOtF",
+                    "widthPx": 6000,
+                    "heightPx": 4000,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Southern Tier Brewery Buffalo",
+                            "uri": "//maps.google.com/maps/contrib/107427027747794311457",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWjJGD00JQQif436Oiwh-C5HyXxgr5ecarItPlDJ2VfsDEVLRY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/photos/AUc7tXUeVkw2ycsChiNSxLm36pMb9cOM_jGhdCtEeB-NgY_bFyJ3Uz46HCZbcG57WGseppLZOF0_5kgx2xQFObqWWgHVeegmgDDMoQxsF191DFSxuN2m-f6dqEaxUYRHFavnzUpDT2MixDgD0EDD2vfu8Pawjnu2iZdwYG3y",
+                    "widthPx": 1380,
+                    "heightPx": 920,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Southern Tier Brewery Buffalo",
+                            "uri": "//maps.google.com/maps/contrib/107427027747794311457",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWjJGD00JQQif436Oiwh-C5HyXxgr5ecarItPlDJ2VfsDEVLRY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/photos/AUc7tXWho74q0ycI111hoT6bB2J2AV8bymZlekJJKBCCEf3gjRnbTKYvCoYLo4InRGH6rZDfT-AMP8O2FV260BhU3sH9RpAYtZQuBljJFjT7n04uKhD-buoSc6NQ75JipVRYgXPBstMVGclCZ2V9vByhVpRt9SrRuF-x79Qk",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Chris Platten",
+                            "uri": "//maps.google.com/maps/contrib/114736459785194785307",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJZ45mk4DVEFTOmrsdmB3fp37aB_2LjEi0ZvC1Em8Uc1kEhjQ=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/photos/AUc7tXUehAeXVtFsjncTcA6cVRXfKliYzqCMYe3lLiZ0N1PF9pcInL0GGU0GWx18mLAhj8TCKaHBnN4Si29mTJ1DeaaC3z5fxN_4dmGyB5DSl5xCTAEGGJgkASBBXvj-PoBOCG24z7thwtsq-vmmkOfp6s4jINDZoMRvFnD5",
+                    "widthPx": 4000,
+                    "heightPx": 3000,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Don Frasco",
+                            "uri": "//maps.google.com/maps/contrib/105487371551711471638",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocIsn5Uc6_vVB4HSvXUz--irEOlNgEdu1lL2RHWVl9sXVHLGREu3=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/photos/AUc7tXVDJr3CabFFRax5IYAy2pPb0UqU8EhCu-uFRL4oZyMcRNXydhc4qM_7So-zrXL5fbmvvqqfFFYb-9sxeQu1ZUqdnd22rd9GNMHBSWLhPNDfYuwZkF2X-jKqRaHJUPg3qTaJwn5oSZulkV9k0YJXqTYUb_Lnxl3ZhdTs",
+                    "widthPx": 1024,
+                    "heightPx": 682,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Southern Tier Brewery Buffalo",
+                            "uri": "//maps.google.com/maps/contrib/107427027747794311457",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWjJGD00JQQif436Oiwh-C5HyXxgr5ecarItPlDJ2VfsDEVLRY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/photos/AUc7tXVJ6FbM38MrfmEwP66wdAzC9xwO9lrFT2ub2qvcc6JZocMtfW1unj6iib79Gm3qmnhmsq-oKd7UOg1W4H7d1_-tG4oaYYR0j5aI7QeYdeUwPAqn4vrcCK-zkGZ9skJDlV6tMdfQtqGUdsHYu8ZliaxMGlwEXNUptgNd",
+                    "widthPx": 1440,
+                    "heightPx": 1440,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Buffalo Eats",
+                            "uri": "//maps.google.com/maps/contrib/110285752648672568042",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUjtLpmFLxdN0EmVZNf9eocyX1dL3zoHGmfuQBc9DWknD-Gf-d2=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/photos/AUc7tXXMzTYo98a3wr5FwYJvej0RdfJhs6idktoC1BM2nMhuskETWCvOkb8GDCu75xFX4ww_M9TaFTDPl8H6HwnYhUA5QixGzp-Bhm36dFjMSPGEReVh2Y74mqSAHwiOMCsCMh9bzQYm4LiRusF7pzMfL4eKP6gKmT76Slk0",
+                    "widthPx": 1440,
+                    "heightPx": 1440,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Buffalo Eats",
+                            "uri": "//maps.google.com/maps/contrib/110285752648672568042",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUjtLpmFLxdN0EmVZNf9eocyX1dL3zoHGmfuQBc9DWknD-Gf-d2=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/photos/AUc7tXVdPKK04Z5aBY0xWLJSBBljbqHII1L34VdGhV-n27c05rKmLH8F5C7scPFpjjqztyQ5YFQyPhQdnB4UusVb5TgQvXuN6LHnCYbPM5gXhC7bR3SGbY4Ih7fsFx2Ae0-Rzi8R5E7qwejJ9ecMf6TrAc1KBuzUFjqMP833",
+                    "widthPx": 3024,
+                    "heightPx": 4032,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Southern Tier Brewery Buffalo",
+                            "uri": "//maps.google.com/maps/contrib/107427027747794311457",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWjJGD00JQQif436Oiwh-C5HyXxgr5ecarItPlDJ2VfsDEVLRY=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/photos/AUc7tXVKlvY2NEWtKxHvmbWE20RjWv5tZWlrqE8iJayrIU5IC7gbFkTg98jYNgayJLEQGnaZkRe0ca0q426U85VKkgqkx9R40G19zR6CNhexWNgc2Nkxt62VE15jkNu-gamOsZhTbMsObLwZw2AXToGCACeaUJOnf_4DC0Uy",
+                    "widthPx": 2100,
+                    "heightPx": 1576,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Mark Leverone",
+                            "uri": "//maps.google.com/maps/contrib/115082245738419697964",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLPb7tw58aBdYqXABGsPxkxOn67kM0-4Y5H958wq6QflHFoyA=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ],
+            "outdoorSeating": false,
+            "liveMusic": true,
+            "menuForChildren": true,
+            "servesCocktails": true,
+            "servesDessert": true,
+            "servesCoffee": false,
+            "goodForChildren": true,
+            "allowsDogs": false,
+            "restroom": true,
+            "goodForGroups": true,
+            "goodForWatchingSports": true,
+            "paymentOptions": {
+                "acceptsCreditCards": true,
+                "acceptsDebitCards": true,
+                "acceptsCashOnly": false
+            },
+            "parkingOptions": {
+                "paidParkingLot": true,
+                "paidStreetParking": true,
+                "valetParking": false,
+                "paidGarageParking": true
+            },
+            "accessibilityOptions": {
+                "wheelchairAccessibleParking": true,
+                "wheelchairAccessibleEntrance": true,
+                "wheelchairAccessibleRestroom": true,
+                "wheelchairAccessibleSeating": true
+            },
+            "generativeSummary": {
+                "overview": {
+                    "text": "Sports bar with a huge 36.5-ft. TV and from-scratch American food, plus beer and cocktails.",
+                    "languageCode": "en-US"
+                },
+                "description": {
+                    "text": "Lively sports bar offering an extensive beer selection, plus cocktails and cider, in Downtown Buffalo's LECOM Harborcenter.\nThe from-scratch menu features bar bites like wings, nachos, and burgers, including vegetarian and vegan options. People like the beef on weck and the chicken sandwich.\nOpen for brunch, lunch, and dinner, the venue has a happy hour. It also has a 36.5-foot TV and shows major sporting events. Some reviews praise the service and the attentive manager.\nCustomers typically spend $20–30.",
+                    "languageCode": "en-US"
+                },
+                "references": {
+                    "reviews": [
+                        {
+                            "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/reviews/ChZDSUhNMG9nS0VJQ0FnSUN4bXItcWZBEAE",
+                            "relativePublishTimeDescription": "a year ago",
+                            "rating": 5,
+                            "text": {
+                                "text": "Top teir food, fun atmosphere",
+                                "languageCode": "en"
+                            },
+                            "originalText": {
+                                "text": "Top teir food, fun atmosphere",
+                                "languageCode": "en"
+                            },
+                            "authorAttribution": {
+                                "displayName": "Nathan Benz",
+                                "uri": "https://www.google.com/maps/contrib/108857187484177141777/reviews",
+                                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUFqF5pN6UB7WBee0I5m3CMCmEQ7xCvoJx-gXa61v4r7r_k11c=s128-c0x00000000-cc-rp-mo-ba2"
+                            },
+                            "publishTime": "2023-05-15T17:15:02Z"
+                        },
+                        {
+                            "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/reviews/ChZDSUhNMG9nS0VJQ0FnSUR4b3RHOExREAE",
+                            "relativePublishTimeDescription": "a year ago",
+                            "rating": 5,
+                            "text": {
+                                "text": "Went there last night for the bandits game, very accommodating. Left my wallet there, don’t have to tell you why. The manager saved it, and when I went to pick it up the next day, she gave me a free beer . With the way, things are now with customer service, I was totally impressed. Well done, southern tier.",
+                                "languageCode": "en"
+                            },
+                            "originalText": {
+                                "text": "Went there last night for the bandits game, very accommodating. Left my wallet there, don’t have to tell you why. The manager saved it, and when I went to pick it up the next day, she gave me a free beer . With the way, things are now with customer service, I was totally impressed. Well done, southern tier.",
+                                "languageCode": "en"
+                            },
+                            "authorAttribution": {
+                                "displayName": "Joseph Cassata",
+                                "uri": "https://www.google.com/maps/contrib/112371541689029258961/reviews",
+                                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJsEpnuHLGQ13TIgw76OPnIG5U4u2kxnrUSbBCKPOeOwrzZqQ=s128-c0x00000000-cc-rp-mo"
+                            },
+                            "publishTime": "2023-06-04T19:13:28Z"
+                        },
+                        {
+                            "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/reviews/ChZDSUhNMG9nS0VJQ0FnSURPcHEyMmZREAE",
+                            "relativePublishTimeDescription": "a year ago",
+                            "rating": 4,
+                            "text": {
+                                "text": "Nice raucous atmosphere. Big. Great beers and nice service. Right down town.",
+                                "languageCode": "en"
+                            },
+                            "originalText": {
+                                "text": "Nice raucous atmosphere. Big. Great beers and nice service. Right down town.",
+                                "languageCode": "en"
+                            },
+                            "authorAttribution": {
+                                "displayName": "domo apple",
+                                "uri": "https://www.google.com/maps/contrib/100105686004399584675/reviews",
+                                "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIwf3zesEJre0eaEer-M0HunLEAA5TmMcavtUT-BMvvauCXDg=s128-c0x00000000-cc-rp-mo-ba4"
+                            },
+                            "publishTime": "2023-05-14T03:41:53Z"
+                        },
+                        {
+                            "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/reviews/ChdDSUhNMG9nS0VJQ0FnSUR4aWFYcml3RRAB",
+                            "relativePublishTimeDescription": "a year ago",
+                            "rating": 4,
+                            "text": {
+                                "text": "Great staff, menu limited. Food is just average, nothing special. So many tvs, sports fans won't he disappointed.",
+                                "languageCode": "en"
+                            },
+                            "originalText": {
+                                "text": "Great staff, menu limited. Food is just average, nothing special. So many tvs, sports fans won't he disappointed.",
+                                "languageCode": "en"
+                            },
+                            "authorAttribution": {
+                                "displayName": "paul fields",
+                                "uri": "https://www.google.com/maps/contrib/109040359983413700980/reviews",
+                                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUjNhNsi845MNu2yP4Xj_2IqG9N4d9bM5UjSBu-h6PQhCsJgcQS=s128-c0x00000000-cc-rp-mo-ba2"
+                            },
+                            "publishTime": "2023-06-10T19:03:18Z"
+                        },
+                        {
+                            "name": "places/ChIJUezlo-sT04kROQFxv_nIl50/reviews/ChdDSUhNMG9nS0VJQ0FnSUR4eXNMRm9BRRAB",
+                            "relativePublishTimeDescription": "a year ago",
+                            "rating": 5,
+                            "text": {
+                                "text": "Awesome service.  Our server, Z, was the best. Food was very good, too.",
+                                "languageCode": "en"
+                            },
+                            "originalText": {
+                                "text": "Awesome service.  Our server, Z, was the best. Food was very good, too.",
+                                "languageCode": "en"
+                            },
+                            "authorAttribution": {
+                                "displayName": "Scott Alex",
+                                "uri": "https://www.google.com/maps/contrib/102806134058142706238/reviews",
+                                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXOhCVYMI1U_ddr7DnTudsSDQcD06cM6JmxKqbC6x6PSAry3xvEFA=s128-c0x00000000-cc-rp-mo"
+                            },
+                            "publishTime": "2023-06-05T21:09:23Z"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk",
+            "id": "ChIJ2c6GcUgS04kRkJPQ8rJ1ewk",
+            "types": [
+                "coffee_shop",
+                "brunch_restaurant",
+                "cafe",
+                "bakery",
+                "breakfast_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "nationalPhoneNumber": "(716) 367-9971",
+            "internationalPhoneNumber": "+1 716-367-9971",
+            "formattedAddress": "391 Washington St, Buffalo, NY 14203, USA",
+            "addressComponents": [
+                {
+                    "longText": "391",
+                    "shortText": "391",
+                    "types": [
+                        "street_number"
+                    ],
+                    "languageCode": "en-US"
+                },
+                {
+                    "longText": "Washington Street",
+                    "shortText": "Washington St",
+                    "types": [
+                        "route"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Downtown",
+                    "shortText": "Downtown",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Buffalo",
+                    "shortText": "Buffalo",
+                    "types": [
+                        "locality",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Erie County",
+                    "shortText": "Erie County",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "New York",
+                    "shortText": "NY",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "United States",
+                    "shortText": "US",
+                    "types": [
+                        "country",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "14203",
+                    "shortText": "14203",
+                    "types": [
+                        "postal_code"
+                    ],
+                    "languageCode": "en-US"
+                },
+                {
+                    "longText": "2108",
+                    "shortText": "2108",
+                    "types": [
+                        "postal_code_suffix"
+                    ],
+                    "languageCode": "en-US"
+                }
+            ],
+            "plusCode": {
+                "globalCode": "87J3V4PG+2M",
+                "compoundCode": "V4PG+2M Buffalo, NY, USA"
+            },
+            "location": {
+                "latitude": 42.885122900000006,
+                "longitude": -78.87327599999999
+            },
+            "viewport": {
+                "low": {
+                    "latitude": 42.88379701970851,
+                    "longitude": -78.8747145802915
+                },
+                "high": {
+                    "latitude": 42.88649498029151,
+                    "longitude": -78.87201661970849
+                }
+            },
+            "rating": 4.6,
+            "googleMapsUri": "https://maps.google.com/?cid=683269179915146128",
+            "websiteUri": "http://www.publicespresso.com/",
+            "regularOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 0,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 0,
+                            "hour": 14,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 14,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 14,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 14,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 14,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 14,
+                            "minute": 0
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 8,
+                            "minute": 0
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 14,
+                            "minute": 0
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 2:00 PM",
+                    "Tuesday: 8:00 AM – 2:00 PM",
+                    "Wednesday: 8:00 AM – 2:00 PM",
+                    "Thursday: 8:00 AM – 2:00 PM",
+                    "Friday: 8:00 AM – 2:00 PM",
+                    "Saturday: 8:00 AM – 2:00 PM",
+                    "Sunday: 8:00 AM – 2:00 PM"
+                ]
+            },
+            "utcOffsetMinutes": -240,
+            "adrFormatAddress": "<span class=\"street-address\">391 Washington St</span>, <span class=\"locality\">Buffalo</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">14203-2108</span>, <span class=\"country-name\">USA</span>",
+            "businessStatus": "OPERATIONAL",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "userRatingCount": 787,
+            "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "iconBackgroundColor": "#FF9E67",
+            "displayName": {
+                "text": "Public Espresso",
+                "languageCode": "en"
+            },
+            "primaryTypeDisplayName": {
+                "text": "Coffee Shop",
+                "languageCode": "en-US"
+            },
+            "takeout": true,
+            "delivery": true,
+            "dineIn": true,
+            "curbsidePickup": false,
+            "reservable": false,
+            "servesBreakfast": true,
+            "servesLunch": true,
+            "servesBeer": false,
+            "servesWine": false,
+            "servesBrunch": true,
+            "servesVegetarianFood": true,
+            "currentOpeningHours": {
+                "openNow": true,
+                "periods": [
+                    {
+                        "open": {
+                            "day": 0,
+                            "hour": 8,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 6,
+                                "day": 30
+                            }
+                        },
+                        "close": {
+                            "day": 0,
+                            "hour": 14,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 6,
+                                "day": 30
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 1,
+                            "hour": 8,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 1
+                            }
+                        },
+                        "close": {
+                            "day": 1,
+                            "hour": 14,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 1
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 2,
+                            "hour": 8,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 2
+                            }
+                        },
+                        "close": {
+                            "day": 2,
+                            "hour": 14,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 2
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 3,
+                            "hour": 8,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 3
+                            }
+                        },
+                        "close": {
+                            "day": 3,
+                            "hour": 14,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 3
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 4,
+                            "hour": 8,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 4
+                            }
+                        },
+                        "close": {
+                            "day": 4,
+                            "hour": 14,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 4
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 5,
+                            "hour": 8,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 5
+                            }
+                        },
+                        "close": {
+                            "day": 5,
+                            "hour": 14,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 5
+                            }
+                        }
+                    },
+                    {
+                        "open": {
+                            "day": 6,
+                            "hour": 8,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 6
+                            }
+                        },
+                        "close": {
+                            "day": 6,
+                            "hour": 14,
+                            "minute": 0,
+                            "date": {
+                                "year": 2024,
+                                "month": 7,
+                                "day": 6
+                            }
+                        }
+                    }
+                ],
+                "weekdayDescriptions": [
+                    "Monday: 8:00 AM – 2:00 PM",
+                    "Tuesday: 8:00 AM – 2:00 PM",
+                    "Wednesday: 8:00 AM – 2:00 PM",
+                    "Thursday: 8:00 AM – 2:00 PM",
+                    "Friday: 8:00 AM – 2:00 PM",
+                    "Saturday: 8:00 AM – 2:00 PM",
+                    "Sunday: 8:00 AM – 2:00 PM"
+                ]
+            },
+            "primaryType": "coffee_shop",
+            "shortFormattedAddress": "391 Washington St, Buffalo",
+            "editorialSummary": {
+                "text": "Stylish craft coffee shop inside the historic Hotel Lafayette, with pour-overs, espresso & pastries.",
+                "languageCode": "en"
+            },
+            "reviews": [
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/reviews/ChZDSUhNMG9nS0VJQ0FnSURkOWVmZEJREAE",
+                    "relativePublishTimeDescription": "4 months ago",
+                    "rating": 1,
+                    "text": {
+                        "text": "Ordered through door dash and the sweet potatoes were essentially charred and grilled onions were burnt. The entire bowl was essentially inedible. Normally, I would chalk this up as a one off but principally, packing something of this low quality is completely unacceptable.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Ordered through door dash and the sweet potatoes were essentially charred and grilled onions were burnt. The entire bowl was essentially inedible. Normally, I would chalk this up as a one off but principally, packing something of this low quality is completely unacceptable.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Sam O",
+                        "uri": "https://www.google.com/maps/contrib/118388095013280782334/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocICK445uC2dgrxl3GsI6bVJ4TyD89_3VDfLpCmIUSfjXSJNVaw=s128-c0x00000000-cc-rp-mo-ba2"
+                    },
+                    "publishTime": "2024-02-26T01:37:51Z"
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/reviews/ChdDSUhNMG9nS0VJQ0FnSUROdUxIS2xBRRAB",
+                    "relativePublishTimeDescription": "5 months ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "Wow really really good  espresso. Also came with a glass of Pellegrino which was awesome. Great looking place great atmosphere excellent desserts and coffee. Highly recommend definitely come in check out",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Wow really really good  espresso. Also came with a glass of Pellegrino which was awesome. Great looking place great atmosphere excellent desserts and coffee. Highly recommend definitely come in check out",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Mike Graz",
+                        "uri": "https://www.google.com/maps/contrib/110079179029090261420/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVEMj8py7dSdO8nGcWYBtt0_30jBvRemEdjjeEJhCb8EKwhmMS5cQ=s128-c0x00000000-cc-rp-mo-ba5"
+                    },
+                    "publishTime": "2024-01-20T16:42:49Z"
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/reviews/ChZDSUhNMG9nS0VJQ0FnSUN5MWR5SUNnEAE",
+                    "relativePublishTimeDescription": "3 months ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "(March 2024) enjoyed a strawberry crueller and loved the red eye gravy breakfast sandwich on the English muffin. Ham was a little thick… good but would’ve preferred a better ratio of egg to ham etc but great flavor. Great coffee as always.\n\n(2023) Always great coffee. a nice, spacious, fun spot to sit and enjoy! The cruellers are insanely good. Probably my favorite thing here. The bagel sandwiches are also awesome-bagel jar bagels are on point!",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "(March 2024) enjoyed a strawberry crueller and loved the red eye gravy breakfast sandwich on the English muffin. Ham was a little thick… good but would’ve preferred a better ratio of egg to ham etc but great flavor. Great coffee as always.\n\n(2023) Always great coffee. a nice, spacious, fun spot to sit and enjoy! The cruellers are insanely good. Probably my favorite thing here. The bagel sandwiches are also awesome-bagel jar bagels are on point!",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Stephanie O'Callaghan",
+                        "uri": "https://www.google.com/maps/contrib/100055521378631372330/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUfQX9aKdqFqcyKZi2NH8kRMkI1LhTKE_9tff1apAihWRa5jZmOrg=s128-c0x00000000-cc-rp-mo-ba6"
+                    },
+                    "publishTime": "2024-03-31T02:11:00Z"
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/reviews/ChdDSUhNMG9nS0VJQ0FnSURadmJ6WTlnRRAB",
+                    "relativePublishTimeDescription": "8 months ago",
+                    "rating": 4,
+                    "text": {
+                        "text": "It’s a millennial or above Gen atmosphere. Most clientele on computers and working out of a coffee shop…? Self order delivered to table. I am not a coffee/latte drinker so there were no normal beverages to offer other than the the coffee that add all their odd ingredients. I personally would have bolted and looked for more of of Gen x diner but we needed something fast. I ordered BEC breakfast sandwich and my friend avocado toast. Both fresh hot and delicious. Wish they had some normal water and juice choices in the fridge. I’m not ordering espresso with ten toppings… the water that they had was warm and I emptied the small tank. I would have paid $$$ for juice and water… attached to a historic hotel which is definitely worth exploring!",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "It’s a millennial or above Gen atmosphere. Most clientele on computers and working out of a coffee shop…? Self order delivered to table. I am not a coffee/latte drinker so there were no normal beverages to offer other than the the coffee that add all their odd ingredients. I personally would have bolted and looked for more of of Gen x diner but we needed something fast. I ordered BEC breakfast sandwich and my friend avocado toast. Both fresh hot and delicious. Wish they had some normal water and juice choices in the fridge. I’m not ordering espresso with ten toppings… the water that they had was warm and I emptied the small tank. I would have paid $$$ for juice and water… attached to a historic hotel which is definitely worth exploring!",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Carrie Luther",
+                        "uri": "https://www.google.com/maps/contrib/115753438644754104796/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWTtfpN8V2h9xWEmewLWTuTijAuhyc_fhMkq3wYWcBb-PYHZEtI=s128-c0x00000000-cc-rp-mo-ba5"
+                    },
+                    "publishTime": "2023-10-07T02:42:56Z"
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/reviews/ChdDSUhNMG9nS0VJQ0FnSUN1LXVqNXhBRRAB",
+                    "relativePublishTimeDescription": "3 months ago",
+                    "rating": 1,
+                    "text": {
+                        "text": "Update Mar. 2024: What's with this place and burning food? I came back just for their bagels bc all the other food we got last time was so gross. I got 3 bagels and all of them are burned to oblivion on the inside. Barely any cream cheese either. Yeah, definitely won't be back for anything now. And I'm opening a credit card claim bc this is just ridiculous since I had to throw all of them away. Were they blind when they slapped a tiny smear of cream cheese inside? There's no way you could've missed that. At least have the decency to scrape it off first but nope, had zero issues giving me this literal garbage. Just shows you how little they care. There were zero customers and it still took them 15 mins to toast 3 bagels incorrectly.\n\n-----------\n\nThey were not good for menu items for us. Baked goods are fine but the kitchen food was disgustingly salty where it made our mouths numb (see sweet potatoes pics - couldn't even finish it). The over medium eggs were very under cooked. It was like eating snot (see pic) - couldn't finish that either. The avocado they brought out was so brown (see pic) we had to send it back. We went around 9:30 am so the food should've been pretty fresh. I feel like this was from the night before.\n\nThis coffee house didn't know what a flat white was and gave me a latte which would've been fine but it was barely warm. They were yelling my name across the whole restaurant (literally from the counter to the window seats by the front door) multiple times to come over to get my coffee and started waving their arms and jumping up and down - I was holding my baby while my husband was setting up the high chair and didn't want to burn her (not that it mattered since it wasn't even hot)! It's embarrassing to be shouted at like that and made a scene of because others were starting to look. Like 3 or 4 of them were doing that wth. I got my drink maybe 60 seconds after that and it was already lukewarm.\n\nTheir baked goods are mostly fine. The honey lavender donut is like eating soap or potpurri - 100% pass. Even my sweet crazy kids didn't want it. The best thing they had? A sesame bagel with cream cheese. I'd go back just for that. Everything else was a definite no for me. If it weren't for the bagel and the decor, they would've had one star.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Update Mar. 2024: What's with this place and burning food? I came back just for their bagels bc all the other food we got last time was so gross. I got 3 bagels and all of them are burned to oblivion on the inside. Barely any cream cheese either. Yeah, definitely won't be back for anything now. And I'm opening a credit card claim bc this is just ridiculous since I had to throw all of them away. Were they blind when they slapped a tiny smear of cream cheese inside? There's no way you could've missed that. At least have the decency to scrape it off first but nope, had zero issues giving me this literal garbage. Just shows you how little they care. There were zero customers and it still took them 15 mins to toast 3 bagels incorrectly.\n\n-----------\n\nThey were not good for menu items for us. Baked goods are fine but the kitchen food was disgustingly salty where it made our mouths numb (see sweet potatoes pics - couldn't even finish it). The over medium eggs were very under cooked. It was like eating snot (see pic) - couldn't finish that either. The avocado they brought out was so brown (see pic) we had to send it back. We went around 9:30 am so the food should've been pretty fresh. I feel like this was from the night before.\n\nThis coffee house didn't know what a flat white was and gave me a latte which would've been fine but it was barely warm. They were yelling my name across the whole restaurant (literally from the counter to the window seats by the front door) multiple times to come over to get my coffee and started waving their arms and jumping up and down - I was holding my baby while my husband was setting up the high chair and didn't want to burn her (not that it mattered since it wasn't even hot)! It's embarrassing to be shouted at like that and made a scene of because others were starting to look. Like 3 or 4 of them were doing that wth. I got my drink maybe 60 seconds after that and it was already lukewarm.\n\nTheir baked goods are mostly fine. The honey lavender donut is like eating soap or potpurri - 100% pass. Even my sweet crazy kids didn't want it. The best thing they had? A sesame bagel with cream cheese. I'd go back just for that. Everything else was a definite no for me. If it weren't for the bagel and the decor, they would've had one star.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Jo C",
+                        "uri": "https://www.google.com/maps/contrib/111778212739808588477/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLjitkD_GIwwrRbebirCrixiqJ-fl5cRaZaYkXA1Z7_mBRklg=s128-c0x00000000-cc-rp-mo"
+                    },
+                    "publishTime": "2024-03-15T19:51:42Z"
+                }
+            ],
+            "photos": [
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/photos/AUc7tXVlCu2vS1p8KVTcLjvgSeB6QPVxvwbSFBulRDk0YwCHo4d8neSo0iTigCbnVcphptlnoIOQZBGUxG-vcorC2PwGaLYsKAEbdQubH-Bf38ZzZrxhWIUHMDtrs3xFA865XBSswAeJPfDOaKJQV4_SAzcA4fvpvA29-4Xb",
+                    "widthPx": 1365,
+                    "heightPx": 769,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Public Espresso",
+                            "uri": "//maps.google.com/maps/contrib/108629180033448110578",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjULhylnCbhsseiR4h-ZX4IKi-kj-2KiIgaD4Y0AYuPi7H2hUYs6=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/photos/AUc7tXXX6y7MNYfCxARSGP_RO77gYi6sXgHKz1yDkPmVnbYK72TMawIWaGeimsBPsftHULMGyQiX91uzmTA12PWK-PqFk8NTWkrTZZXCN9UejSOcUOCVoh-agXwLOtD7QcMUMgR0uutubxxs3Ag6dbY_F_uJI2x1lpil-YTP",
+                    "widthPx": 1280,
+                    "heightPx": 853,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Public Espresso",
+                            "uri": "//maps.google.com/maps/contrib/108629180033448110578",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjULhylnCbhsseiR4h-ZX4IKi-kj-2KiIgaD4Y0AYuPi7H2hUYs6=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/photos/AUc7tXUBLe-KVRcB20Ke49GIphdluAGBrHO-bzi3VD7RO4l_Kjp5wmkBjkfnB0n452JXV-ZSAQtk_-Ak-ueeRZpyrWXOnvaPAwnzJwoJSc_U7BURZG5g6RoQDYxgADgDjUnPdSmtQOJkeQTw73L1v8m1uOrXg62uSPXR_3cD",
+                    "widthPx": 450,
+                    "heightPx": 450,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Pedro Stancil",
+                            "uri": "//maps.google.com/maps/contrib/104308895051107847122",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKfovSGbHwLzVpjahzOuXY6rxH4WcJiqKWdArjoMkVs0EC-Gg=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/photos/AUc7tXU8vIX-Gl7KC-N2_HQ1ywTDqJOYVH-oWPePyWX-UZw1jeJM820F5yZBv9pyQLJO6n-ighkziCRH5fJh1mN4E-IrK1XfLNF7BlYmtpFRDx1H49VHnsrSVonDePNUiq5GDx2MYAHS-W2oD4NOyuE57XsyjWqT9L1TVZNb",
+                    "widthPx": 9248,
+                    "heightPx": 6936,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Luke Bennett",
+                            "uri": "//maps.google.com/maps/contrib/114676282377810208045",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXKqAErh2w00liJdH7py8bOSSRrYXcNTs7AAjOXuK9HrV7Yh0Ke=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/photos/AUc7tXVcPHO2MgMboSYLX541F0grd5FoWocd24ecG0pYfl1yQ0NWIAQKykUmAHNVLiOvSmue_jJe_QWnnylFzI23QC0Sl4-41z29WU1Tl7kJhzdNWZ6Ok8turKHe6LjykJqb_MNfdWVGEw9w6aImWfCOkKN_prgBvjZQhAe4",
+                    "widthPx": 3840,
+                    "heightPx": 2160,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Alex P",
+                            "uri": "//maps.google.com/maps/contrib/113650633963374773515",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocL9RbVf0WrT6NHBzCQkjLit7iQW_Ucnz7MaXRhJDg13Lx3cKDng=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/photos/AUc7tXVIEtij7W9FrnJ2mooAre6d5QZyqOeaxGFq-w6Wjj9blh9lwROqBm2o0VxWC5yY4g4pODo0deQZ9CHZPnV3Khbqr4LRtDxzcVNOJqhQi188YPZ0g0oGhWznCvj04-Mrbp4Rtzyxwl6vCAY26mZwGAEnF8Pjajio7Qx_",
+                    "widthPx": 1440,
+                    "heightPx": 1800,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Buffalo Eats",
+                            "uri": "//maps.google.com/maps/contrib/110285752648672568042",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUjtLpmFLxdN0EmVZNf9eocyX1dL3zoHGmfuQBc9DWknD-Gf-d2=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/photos/AUc7tXVJNT6HUZMNSSKz6gHWX04nS1uRFWcu7eOAE4dVjDKg0XDrAeO5bAbhTBC5ewX--Pg9AomiPSjgrAaTntE_NZVA31YJwXopAV10rF6ajKv_9O8MbE6PLuivhrBaKgeyLioyeDX-QatbVwEdFosD_t9myc-3zNfIJaGB",
+                    "widthPx": 749,
+                    "heightPx": 935,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Public Espresso",
+                            "uri": "//maps.google.com/maps/contrib/108629180033448110578",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjULhylnCbhsseiR4h-ZX4IKi-kj-2KiIgaD4Y0AYuPi7H2hUYs6=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/photos/AUc7tXVDodaJVzZbYvANlZDI_qZ6OCFHX2JjaO6azWApYc_atR762k6lR2BwI1RaRweoyjBXybapBw5m1ch2uF2E3YEJE18TwL6r4RbKewcKn52-6Me6A3KdPf-Ef0TJKxBxgb1wHGdSQfLTLKYMH0KENBznp2wfGhLz0-EZ",
+                    "widthPx": 1200,
+                    "heightPx": 1600,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Sam O",
+                            "uri": "//maps.google.com/maps/contrib/118388095013280782334",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocICK445uC2dgrxl3GsI6bVJ4TyD89_3VDfLpCmIUSfjXSJNVaw=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/photos/AUc7tXXE5WAogMrzfdjlSjoC2_UM2dwRldTeRFse3zQfLhZZweeSAnXpK2lhhlCsWLYBTitBa-mTanywEahrcu3ALE17TjLnqZKltQkJ6CNYHW9YJYEJaDTIYwXf_O62UKzB9rxze1mOqWgSNcB9-ItHB3fYdfUxopQycaeP",
+                    "widthPx": 1024,
+                    "heightPx": 683,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Public Espresso",
+                            "uri": "//maps.google.com/maps/contrib/108629180033448110578",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjULhylnCbhsseiR4h-ZX4IKi-kj-2KiIgaD4Y0AYuPi7H2hUYs6=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ2c6GcUgS04kRkJPQ8rJ1ewk/photos/AUc7tXWZD7kt1g7v-EijnehAjKrrn_TvHyA7MYmZHIgDuBvvavEvFvhz76RNnYlBgue_cBCWZMVlK11tB3gAiRGn3O1Sz5cJ7Bb5CKQgfgYqqgs-v7RNidXz-cIj77y_nRJxaB9oRoIyllYBBg5yViwcWhFnA_u40SRPUM0d",
+                    "widthPx": 3456,
+                    "heightPx": 4608,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Julie Marlatt",
+                            "uri": "//maps.google.com/maps/contrib/118279424453607593345",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjWX9gI331fhwPYcmSkeIB42JVnwC_x_vSkzv-lU-FrUAmcMA0q_5Q=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ],
+            "liveMusic": false,
+            "menuForChildren": false,
+            "servesCocktails": false,
+            "servesDessert": true,
+            "servesCoffee": true,
+            "goodForChildren": true,
+            "restroom": true,
+            "goodForGroups": true,
+            "goodForWatchingSports": false,
+            "paymentOptions": {
+                "acceptsCreditCards": true,
+                "acceptsDebitCards": true,
+                "acceptsCashOnly": false,
+                "acceptsNfc": true
+            },
+            "parkingOptions": {
+                "paidStreetParking": true,
+                "valetParking": false
+            },
+            "accessibilityOptions": {
+                "wheelchairAccessibleParking": true,
+                "wheelchairAccessibleEntrance": true,
+                "wheelchairAccessibleRestroom": true,
+                "wheelchairAccessibleSeating": true
+            },
+            "generativeSummary": {
+                "overview": {
+                    "text": "Donuts, sandwiches and coffee are served in this casual spot in the Hotel at the Lafayette.",
+                    "languageCode": "en-US"
+                }
+            }
+        },
+        {
+            "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc",
+            "id": "ChIJ_63eLTAS04kRujEOnS7vLZc",
+            "types": [
+                "historical_landmark",
+                "event_venue",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "nationalPhoneNumber": "(716) 200-1893",
+            "internationalPhoneNumber": "+1 716-200-1893",
+            "formattedAddress": "49 Illinois St, Buffalo, NY 14203, USA",
+            "addressComponents": [
+                {
+                    "longText": "49",
+                    "shortText": "49",
+                    "types": [
+                        "street_number"
+                    ],
+                    "languageCode": "en-US"
+                },
+                {
+                    "longText": "Illinois Street",
+                    "shortText": "Illinois St",
+                    "types": [
+                        "route"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Downtown",
+                    "shortText": "Downtown",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Buffalo",
+                    "shortText": "Buffalo",
+                    "types": [
+                        "locality",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "Erie County",
+                    "shortText": "Erie County",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "New York",
+                    "shortText": "NY",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "United States",
+                    "shortText": "US",
+                    "types": [
+                        "country",
+                        "political"
+                    ],
+                    "languageCode": "en"
+                },
+                {
+                    "longText": "14203",
+                    "shortText": "14203",
+                    "types": [
+                        "postal_code"
+                    ],
+                    "languageCode": "en-US"
+                }
+            ],
+            "plusCode": {
+                "globalCode": "87J3V4FG+R2",
+                "compoundCode": "V4FG+R2 Buffalo, NY, USA"
+            },
+            "location": {
+                "latitude": 42.874567299999995,
+                "longitude": -78.8748852
+            },
+            "viewport": {
+                "low": {
+                    "latitude": 42.873186219708494,
+                    "longitude": -78.8763015802915
+                },
+                "high": {
+                    "latitude": 42.87588418029149,
+                    "longitude": -78.87360361970849
+                }
+            },
+            "rating": 4.5,
+            "googleMapsUri": "https://maps.google.com/?cid=10893626057161585082",
+            "websiteUri": "http://buffaloironworks.com/",
+            "utcOffsetMinutes": -240,
+            "adrFormatAddress": "<span class=\"street-address\">49 Illinois St</span>, <span class=\"locality\">Buffalo</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">14203</span>, <span class=\"country-name\">USA</span>",
+            "businessStatus": "OPERATIONAL",
+            "userRatingCount": 992,
+            "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "iconBackgroundColor": "#13B5C7",
+            "displayName": {
+                "text": "Buffalo Iron Works",
+                "languageCode": "en"
+            },
+            "primaryTypeDisplayName": {
+                "text": "Event Venue",
+                "languageCode": "en-US"
+            },
+            "primaryType": "event_venue",
+            "shortFormattedAddress": "49 Illinois St, Buffalo",
+            "editorialSummary": {
+                "text": "Intimate live music venue & bar in an early 1900s factory space serving wings & other bar food.",
+                "languageCode": "en"
+            },
+            "reviews": [
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/reviews/ChZDSUhNMG9nS0VJQ0FnSURUbWVIWUp3EAE",
+                    "relativePublishTimeDescription": "a month ago",
+                    "rating": 4,
+                    "text": {
+                        "text": "Clean bathrooms. Small kitchen with fried food menu. Appreciate the 2nd floor balcony for a more intimate setting. Nice venue for smaller and local acts.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Clean bathrooms. Small kitchen with fried food menu. Appreciate the 2nd floor balcony for a more intimate setting. Nice venue for smaller and local acts.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Barb Kern",
+                        "uri": "https://www.google.com/maps/contrib/116816075498095502137/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVkqlXMKmHXvIeg5k3yDRe4S41qZ4FLwAqyJkJgsXQZEhiXZs2Gkw=s128-c0x00000000-cc-rp-mo-ba5"
+                    },
+                    "publishTime": "2024-05-25T22:21:46Z"
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/reviews/ChZDSUhNMG9nS0VJQ0FnSUNUa0syV0VBEAE",
+                    "relativePublishTimeDescription": "a month ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "Great place to see live music, nice size with a long bar. Seating up high on another level as well for viewing.",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Great place to see live music, nice size with a long bar. Seating up high on another level as well for viewing.",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Matthew Le Sage",
+                        "uri": "https://www.google.com/maps/contrib/112632712617282690720/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWtZ7nCwSqsmXGOVp-WxhjOhzsqlwb60MloRwda_7asz9hnCkFzrA=s128-c0x00000000-cc-rp-mo-ba6"
+                    },
+                    "publishTime": "2024-05-10T02:07:33Z"
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/reviews/ChZDSUhNMG9nS0VJQ0FnSUNUMXJUNWFnEAE",
+                    "relativePublishTimeDescription": "a month ago",
+                    "rating": 4,
+                    "text": {
+                        "text": "Good bar,  acoustics not all the best but good place to watch music. I think it may have more to do with where I was sitting. The owner graciously reached out and invited us to come back for another experience. We look forward to going back, nice people!",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "Good bar,  acoustics not all the best but good place to watch music. I think it may have more to do with where I was sitting. The owner graciously reached out and invited us to come back for another experience. We look forward to going back, nice people!",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "David Wright",
+                        "uri": "https://www.google.com/maps/contrib/109188690375838848996/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXSkFPIzi49dOLBjzd4tDC4-rXaTZAP8TS2J2Xl4V-rlZfUdEqd=s128-c0x00000000-cc-rp-mo"
+                    },
+                    "publishTime": "2024-05-21T12:15:10Z"
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/reviews/ChZDSUhNMG9nS0VJQ0FnSURseFlQZ1NREAE",
+                    "relativePublishTimeDescription": "7 months ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "My wife and I took our 3 kids to a sold out show last night at Iron Works and the staff there was absolutely incredible. Everything from the seating accommodations to the food was excellent and the bar staff was awesome at keeping up with a full house of people. We will definitely be going back for more shows at this venue!\nBuffalo IronWorks Rocks!",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "My wife and I took our 3 kids to a sold out show last night at Iron Works and the staff there was absolutely incredible. Everything from the seating accommodations to the food was excellent and the bar staff was awesome at keeping up with a full house of people. We will definitely be going back for more shows at this venue!\nBuffalo IronWorks Rocks!",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Kris VanWie",
+                        "uri": "https://www.google.com/maps/contrib/114330334719689988660/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLvCdxektz4fKerHyj3k1IfVQ_gzA3QPvOleslZL9U-wFsm8A=s128-c0x00000000-cc-rp-mo"
+                    },
+                    "publishTime": "2023-12-02T21:44:42Z"
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ5N2FHaHN3RRAB",
+                    "relativePublishTimeDescription": "3 months ago",
+                    "rating": 5,
+                    "text": {
+                        "text": "The band was great, but so was the venue! Different levels for viewing the stage and dancing, the eye-catching collection of album covers, and the open garage door that allowed ventilation and also a little outside smoke for anyone nostalgic for the smell of the bars we used to sneak into. Such a great space!",
+                        "languageCode": "en"
+                    },
+                    "originalText": {
+                        "text": "The band was great, but so was the venue! Different levels for viewing the stage and dancing, the eye-catching collection of album covers, and the open garage door that allowed ventilation and also a little outside smoke for anyone nostalgic for the smell of the bars we used to sneak into. Such a great space!",
+                        "languageCode": "en"
+                    },
+                    "authorAttribution": {
+                        "displayName": "Peter Horn",
+                        "uri": "https://www.google.com/maps/contrib/112869757004457587957/reviews",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVR4CzndCiB6g1FdEpUkOBJaRO_xU_GgP1TeledrnWRRfBcQOgf=s128-c0x00000000-cc-rp-mo"
+                    },
+                    "publishTime": "2024-03-20T01:44:23Z"
+                }
+            ],
+            "photos": [
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/photos/AUc7tXWD9BeqFDSxpy8j9LbFgt5hnt0ZJv2AxW4IvWXhn1QW84ukRmcyMqz8Hw1LKW3cQunR8jg2YFkssH89aQXGjvJrT3dnW2q53-yaezk05ZMNQyryjDawzLsW7hnteJOyPa5fx43D2aJcsNwbDMYeaDRd3RTneuaBYzcG",
+                    "widthPx": 2048,
+                    "heightPx": 1342,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Buffalo Iron Works",
+                            "uri": "//maps.google.com/maps/contrib/112973337045656048829",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUuxRtnoe2-xV3OGKO9E6-CgL_RFQVXwyjCwvBquaQDyPFHJ8gt=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/photos/AUc7tXXQrAiLc0A5J5N3mJQDlEG0NksKywIUMewVSfm_BR4wO6dq0Y7d0xcwwk9R49RLD2M7dpFlDPnH3XKyCrtoThN6PPtkFDxx2UkwmkNxLp-Mtp5cH27ObX4Qfq64pWchfKyzNCm-GMr-HuJlSdShyKLSpXM2iI9JxizD",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Gary RAFE",
+                            "uri": "//maps.google.com/maps/contrib/102906645894123163775",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVfXKi1Ir-_ss7SYYEZafPRr38pQcHoHU4uZuWrWRlNov89EdrJzA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/photos/AUc7tXX8Vqz0osLvkU2OD6UbBwxek-W4aZ-jsAy3sNQYPJFdvHKFBWITmp9Rb_uqM5TIHlLLYPqgOnEYpGvwEvyFq5ILV6iL9UIGvxRSuPPktpLTv1fkoHCQOT9gH0C29boDzB28-ePaw9rn7RQ3t1IlDcJ4IGf9Dom6cONO",
+                    "widthPx": 2048,
+                    "heightPx": 1366,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Buffalo Iron Works",
+                            "uri": "//maps.google.com/maps/contrib/112973337045656048829",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUuxRtnoe2-xV3OGKO9E6-CgL_RFQVXwyjCwvBquaQDyPFHJ8gt=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/photos/AUc7tXXtG0gwNsYTGC6Q1zHH0YeuUZtha_5Gcc77gk-joVph2ALyNkFtPdZjj121WJhg97U8CFDcW2i-C9HTbxcIrgDkfRn_DM1RdRZYjH1p-QCZEhYx8MqfEEfUEvHoDpZp3X_EEgIgW4RLHW-Hr35wfRmnTReZONp52fqD",
+                    "widthPx": 960,
+                    "heightPx": 640,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Buffalo Iron Works",
+                            "uri": "//maps.google.com/maps/contrib/112973337045656048829",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUuxRtnoe2-xV3OGKO9E6-CgL_RFQVXwyjCwvBquaQDyPFHJ8gt=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/photos/AUc7tXVgszi1CG3pomLb0ZJyW4d1lYwRxeieuzaw3p0IDLLH5ds1cDpLjX16VOzmoYnr5MDwXfjBfoSnuWuyAWlbcbMufeTpIrwlIVXes2gM3Wx66amMZC_mwznaDeILKLF8a9hG8yq7cWc8RjrgUHQXshhspA6TgoQuc0tR",
+                    "widthPx": 4032,
+                    "heightPx": 3024,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Adrian",
+                            "uri": "//maps.google.com/maps/contrib/108822688444173408538",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV48FieEmUpNKLvHY_ScgGvMBkmlFRo4HMlhiQFP3LIHxDf7PmFVg=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/photos/AUc7tXU6J43Rjemu7sbCvSev9cIfjRXU7k1lSLJ6XcXivVf0xPME46wVLJu9btSTKq2kwHMA_tJbbYdAlbAM3D1c4YBIsYW1VIrPLNQSeABb4lTELHKPFfiI974zlWCGb2BCm1FT0NeJvNLddl8JH8ORP_-u0xySpGP5ATgL",
+                    "widthPx": 1366,
+                    "heightPx": 2048,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Buffalo Iron Works",
+                            "uri": "//maps.google.com/maps/contrib/112973337045656048829",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUuxRtnoe2-xV3OGKO9E6-CgL_RFQVXwyjCwvBquaQDyPFHJ8gt=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/photos/AUc7tXUoIWeCj-9Qrz8oQztUgYrfO-b_46lwywQ6XdedSTKaHMaps5dlq4fIn1YEV-J0cXSpsrZahNvCb72tY1RSsKRCvtPYvh3CCZOzLF8ldbiYyLS5DC7SEMuAbJjXuplw-4VLPbAMSiHl9S-fXkXoz-Lyy9XaOTT_jQho",
+                    "widthPx": 1600,
+                    "heightPx": 1068,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Buffalo Iron Works",
+                            "uri": "//maps.google.com/maps/contrib/112973337045656048829",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUuxRtnoe2-xV3OGKO9E6-CgL_RFQVXwyjCwvBquaQDyPFHJ8gt=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/photos/AUc7tXXN6hncm5XM71XHeZq53p6-9tCsAmjUj984AodHAO6n9PkWKblTN5MizxS8kF2R3FPzRckjGnfrTaLAirxCUAsf00_9CDm3Iv1NMoH5V6YvW2-Lij0xOz2yqeTVsFaR3YvyjeKm7f73C3_7qvvCR_jF6FTJ_RbQkq1G",
+                    "widthPx": 3120,
+                    "heightPx": 4160,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Kathy White",
+                            "uri": "//maps.google.com/maps/contrib/112932296604788059421",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVollQ4IaLcCQ7XoaT4sHTEZ7xoKKwusprT5Lfq2MU6ZhPh3XI=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/photos/AUc7tXUYne_--xLFAwTIcc3r_QACLi3NYXRBiV2il3e6MmjvMjF9oz-1pKXJWbpX_KuZQcDWVwPPo9iwiprH1KnadpHw1jLQ2JHzFK_eMJPsaN0g2BK8vmwUCyVI8x5KhiYDpYy1sRzlhs_QMy-Y9yt-MGZAlRMbqy8uPiiu",
+                    "widthPx": 4032,
+                    "heightPx": 2268,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Ryan Lynn",
+                            "uri": "//maps.google.com/maps/contrib/105986660257704892753",
+                            "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUjLK2wC03gCoRsHBKDeyKNR0lsO2Y7MfzibwoNVemwG_lXzuxZSA=s100-p-k-no-mo"
+                        }
+                    ]
+                },
+                {
+                    "name": "places/ChIJ_63eLTAS04kRujEOnS7vLZc/photos/AUc7tXVkORVozZ0ZaujQcHAcgFPi0QSFghky761Zuz5l7MgPsY45FZ1qF2h-ZOLpGjG3oA_xwAqWmeWnBvbL6elz7uZV0CQAs0AUOF0phfatPMo5Fg9InnDIcM347attu53ynBpyyhC_vhNe2K6LXaezHkmGG8iVCwDePyIS",
+                    "widthPx": 4032,
+                    "heightPx": 2268,
+                    "authorAttributions": [
+                        {
+                            "displayName": "Lindsay K.",
+                            "uri": "//maps.google.com/maps/contrib/108642487580256911055",
+                            "photoUri": "//lh3.googleusercontent.com/a/ACg8ocJCHto44mlI9TxFAIoSVC_p2eIvWpTL65_lVnUKl3HPKLKgPuSA=s100-p-k-no-mo"
+                        }
+                    ]
+                }
+            ],
+            "goodForChildren": false,
+            "restroom": true,
+            "paymentOptions": {
+                "acceptsDebitCards": true,
+                "acceptsNfc": true
+            },
+            "parkingOptions": {
+                "valetParking": false
+            },
+            "accessibilityOptions": {
+                "wheelchairAccessibleParking": true,
+                "wheelchairAccessibleEntrance": true,
+                "wheelchairAccessibleRestroom": true,
+                "wheelchairAccessibleSeating": true
+            },
+            "generativeSummary": {
+                "overview": {
+                    "text": "National and regional acts perform at this live music venue with an outdoor patio and a bar.",
+                    "languageCode": "en-US"
+                }
+            }
+        }
+    ]
+}
