@@ -1,10 +1,12 @@
 import requests
-from .api_keys import google_geocode_base_endpoint, google_key, google_nearby_search_endpoint, ipinfo_base_endpoint,ipinfo_key
+from .api_keys import google_geocode_base_endpoint, google_key, google_nearby_search_endpoint, ipinfo_base_endpoint,ipinfo_key, reddit_base_endpoint
 from .types.google_geocoding_responses import SampleGoogleGeocodingResponse
 from .types.ipinfo_response import SampleIpinfoResponse
 import json
+from difflib import SequenceMatcher
 
-def makeEndpointFromArgs(endpoint:str, queryArgs: dict):
+
+def makeEndpointFromArgs(endpoint:str, queryArgs: dict = {}):
     queryArgsAsPieces = []
     queryIdx = 0
     for queryArgKey,queryArgValue in queryArgs.items():
@@ -81,4 +83,31 @@ def search_google_nearby_places(query_args):
     return parsed_response
 
 def search_reddit_subreddits(location_name):
+    full_endpoint = makeEndpointFromArgs(f"{reddit_base_endpoint}/subreddits/search.json", {
+        "q": location_name
+    })
+
+    #Get list of subreddits
+
     
+    #Filter out by string similarity/inclusion on subreddit name,
+    # title, header_title, description; filter out below certain threshold
+    
+    #Sort subreddits by subscriber count, select first one
+
+    #If no results left after filtering, sort by popularity and use first;
+    # also, include location name in future queries
+
+    pass
+
+def search_reddit_subreddit_for_places(subreddit_name, location_name: str, use_location_name=False):
+    
+    location_to_use = f'{location_name} ' if use_location_name else ''
+    info_query = f'{location_to_use}best restaurants'
+    full_endpoint = makeEndpointFromArgs(f"{reddit_base_endpoint}/r/{subreddit_name}/search.json", {
+        "q": info_query,
+        "restrict_sr": 1
+    })
+
+    
+    pass
