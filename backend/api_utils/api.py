@@ -121,5 +121,10 @@ def search_reddit_subreddit_posts(subreddit_name, location_name: str, use_locati
     
     pass 
 
-def search_reddit(location_name:str):
+def search_reddit(query_args):
+    latitude = 42.8818 #query_args[latitude] #Test vals
+    longitude = -78.8820 #query_args[longitude]
+    location_types = ["restaurant"] # restaurant | coffee_shop | ice_cream_shop | tourist_attraction
+    radius = query_args[radius] if "radius" in query_args else 1000.0 #Default value
+    result_count = 20
     subreddit_name = search_reddit_subreddits()

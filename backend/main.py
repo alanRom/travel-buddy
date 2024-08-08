@@ -1,7 +1,7 @@
 
 import functions_framework
 import json
-from api_utils.api import search_google_nearby_places, search_reddit_subreddit_for_places
+from api_utils.api import search_google_nearby_places, search_reddit
 from markupsafe import escape
 
 @functions_framework.http
@@ -18,6 +18,6 @@ def search_apis(request):
     request_args = request.args
 
     google_response = search_google_nearby_places(request_args)
-    reddit_response = search_reddit_subreddit
+    reddit_response = search_reddit(request_args)
     return json.dumps(google_response)
 
