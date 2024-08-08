@@ -82,7 +82,9 @@ def search_google_nearby_places(query_args):
 
     return parsed_response
 
-def search_reddit_subreddits(location_name):
+# Given a location name, this function queries the Reddit API to identify the most likely subreddit belonging
+# to the desired location.
+def search_reddit_subreddits(location_name: str):
     full_endpoint = makeEndpointFromArgs(f"{reddit_base_endpoint}/subreddits/search.json", {
         "q": location_name
     })
@@ -100,7 +102,9 @@ def search_reddit_subreddits(location_name):
 
     pass
 
-def search_reddit_subreddit_for_places(subreddit_name, location_name: str, use_location_name=False):
+# This function searches the subreddit of the location for posts identifying well-received 
+# places of interest, including restaurants, coffee shops, etc...
+def search_reddit_subreddit_posts(subreddit_name, location_name: str, use_location_name=False):
     
     location_to_use = f'{location_name} ' if use_location_name else ''
     info_query = f'{location_to_use}best restaurants'
@@ -109,5 +113,13 @@ def search_reddit_subreddit_for_places(subreddit_name, location_name: str, use_l
         "restrict_sr": 1
     })
 
+    #Select n top posts
+
+    #For each post, collect comments
+
+    #Return comments as documents
     
-    pass
+    pass 
+
+def search_reddit(location_name:str):
+    subreddit_name = search_reddit_subreddits()
