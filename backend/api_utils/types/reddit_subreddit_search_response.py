@@ -265,7 +265,7 @@ class Kind(Enum):
     T5 = "t5"
 
 
-class Child:
+class SubredditSearchChild:
     kind: Kind
     data: ChildData
 
@@ -279,10 +279,10 @@ class RedditSubredditSearchData:
     dist: int
     modhash: str
     geo_filter: str
-    children: List[Child]
+    children: List[SubredditSearchChild]
     before: None
 
-    def __init__(self, after: str, dist: int, modhash: str, geo_filter: str, children: List[Child], before: None) -> None:
+    def __init__(self, after: str, dist: int, modhash: str, geo_filter: str, children: List[SubredditSearchChild], before: None) -> None:
         self.after = after
         self.dist = dist
         self.modhash = modhash

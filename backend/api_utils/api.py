@@ -1,4 +1,8 @@
+from typing import List
 import requests
+
+from api_utils.types.reddit_subreddit_search_response import RedditSubredditSearchResult, SubredditSearchChild
+from api_utils.utils import get_separate_location_parts
 from .api_keys import google_geocode_base_endpoint, google_key, google_nearby_search_endpoint, ipinfo_base_endpoint,ipinfo_key, reddit_base_endpoint
 from .types.google_geocoding_responses import SampleGoogleGeocodingResponse
 from .types.ipinfo_response import SampleIpinfoResponse
@@ -89,18 +93,41 @@ def search_reddit_subreddits(location_name: str):
         "q": location_name
     })
 
-    #Get list of subreddits
+    location_name_parts = get_separate_location_parts(location_name)
 
-    
+    #Get list of subreddits
+    reddit_response: RedditSubredditSearchResult = requests.get(url=full_endpoint).json()
+    subreddit_list = reddit_response["data"]["children"]
+        
     #Filter out by string similarity/inclusion on subreddit name,
     # title, header_title, description; filter out below certain threshold
-    
+    def filter_irrelevant_subreddits(subreddit: SubredditSearchChild):
+        subreddit_data = subreddit["data"]
+
+        full_string = f'''{subreddit_data["display_name"]}
+{subreddit_data["public_description"]}
+{subreddit_data["description"]}
+{subreddit_data["header_title"]}'''
+        target_name_pieces = len(location_name_parts)
+        count_found = 0
+        for piece in location_name_parts:
+            if piece in full_string:
+                count_found += 1
+        if count_found == target_name_pieces:
+            return True
+        else:
+            return False
+        
+    relevant_subreddits: List[SubredditSearchChild] = list(filter(filter_irrelevant_subreddits, subreddit_list))
     #Sort subreddits by subscriber count, select first one
-
-    #If no results left after filtering, sort by popularity and use first;
-    # also, include location name in future queries
-
-    pass
+    if len(relevant_subreddits) > 0:
+        sorted_subreddits_by_subscribers = sorted(relevant_subreddits, key=lambda x: x["data"]["subscribers"], reverse=True)
+        return (sorted_subreddits_by_subscribers[0], None)
+    else:
+        #If no results left after filtering, sort by popularity and use first;
+        # also, include location name in future queries
+        sorted_subreddits_by_subscribers = sorted(subreddit_list, key=lambda x: x["data"]["subscribers"], reverse=True)
+        return (sorted_subreddits_by_subscribers[0], location_name)
 
 # This function searches the subreddit of the location for posts identifying well-received 
 # places of interest, including restaurants, coffee shops, etc...
@@ -114,6 +141,12 @@ def search_reddit_subreddit_posts(subreddit_name, location_name: str, use_locati
     })
 
     #Select n top posts
+    NUMBER_OF_POSTS = 5
+    reddit_response = requests.get(url=full_endpoint).json()
+    post_list = reddit_response["data"]["children"]
+
+
+
 
     #For each post, collect comments
 
@@ -127,4 +160,5 @@ def search_reddit(query_args):
     location_types = ["restaurant"] # restaurant | coffee_shop | ice_cream_shop | tourist_attraction
     radius = query_args[radius] if "radius" in query_args else 1000.0 #Default value
     result_count = 20
-    subreddit_name = search_reddit_subreddits()
+    (subreddit_to_use, subreddit_name) = search_reddit_subreddits("Buffalo, New York")
+    return subreddit_to_use

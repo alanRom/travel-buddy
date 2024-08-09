@@ -19,5 +19,11 @@ def search_apis(request):
 
     google_response = search_google_nearby_places(request_args)
     reddit_response = search_reddit(request_args)
-    return json.dumps(google_response)
 
+    full_response = {
+        "GoogleMaps": google_response,
+        "Reddit": reddit_response
+    }
+    return json.dumps(full_response)
+
+# 
