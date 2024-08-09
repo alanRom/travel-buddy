@@ -132,7 +132,6 @@ def search_reddit_subreddits(location_name: str):
 # This function searches the subreddit of the location for posts identifying well-received 
 # places of interest, including restaurants, coffee shops, etc...
 def search_reddit_subreddit_posts(subreddit_name, location_name: str, use_location_name=False):
-    
     location_to_use = f'{location_name} ' if use_location_name else ''
     info_query = f'{location_to_use}best restaurants'
     full_endpoint = makeEndpointFromArgs(f"{reddit_base_endpoint}/r/{subreddit_name}/search.json", {
@@ -144,10 +143,9 @@ def search_reddit_subreddit_posts(subreddit_name, location_name: str, use_locati
     NUMBER_OF_POSTS = 5
     reddit_response = requests.get(url=full_endpoint).json()
     post_list = reddit_response["data"]["children"]
-
-
-
-
+    sorted_post_by_date = sorted(post_list, key=lambda x: x["data"]["created_utc"], reverse=True)
+    posts_to_use = sorted_post_by_date[0:NUMBER_OF_POSTS]
+    
     #For each post, collect comments
 
     #Return comments as documents
