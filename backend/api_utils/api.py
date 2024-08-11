@@ -5,6 +5,7 @@ import praw
 
 from api_utils.types.reddit_subreddit_search_response import RedditSubredditSearchResult, SubredditSearchChild
 from api_utils.utils import get_separate_location_parts
+from api_utils.types.reddit_subreddit_restricted_search import PostChild, RedditSubredditRestrictedSearch
 from .api_keys import google_geocode_base_endpoint, google_key, google_nearby_search_endpoint, ipinfo_base_endpoint,ipinfo_key, reddit_base_endpoint, reddit_client_key, reddit_secret_key
 from .types.google_geocoding_responses import SampleGoogleGeocodingResponse
 from .types.ipinfo_response import SampleIpinfoResponse
@@ -138,8 +139,9 @@ def search_reddit_subreddits(location_name: str):
 
 def get_comments_for_post(post_id):
     results = reddit.submission(post_id)
-    results = list(map(lambda x: x.body, results.comments))
-    return results
+    raw_comments = results.comments
+    text_comments = list(map(lambda x: x.body, results.comments))
+    return (text_comments, raw_comments)
 
 
 # This function searches the subreddit of the location for posts identifying well-received 
@@ -154,17 +156,25 @@ def search_reddit_subreddit_posts(subreddit_name, location_name: str, use_locati
 
     #Select n top posts
     NUMBER_OF_POSTS = 5
-    reddit_response = requests.get(url=full_endpoint).json()
-    post_list = reddit_response["data"]["children"]
+    reddit_response:RedditSubredditRestrictedSearch = requests.get(url=full_endpoint).json()
+    post_list:List[PostChild] = reddit_response["data"]["children"]
     sorted_post_by_date = sorted(post_list, key=lambda x: x["data"]["created_utc"], reverse=True)
     posts_to_use = sorted_post_by_date[0:NUMBER_OF_POSTS]
     
     #For each post, collect comments
-
+    def handle_single_post(post:PostChild):
+        post_id = post["data"]["id"]
+        (text_comments, raw_comments) = get_comments_for_post(post_id)
+        return {
+            "Post": post,
+            "Commments": text_comments,
+            # "RawComments": raw_comments
+        }
     
     #Return comments as documents
+    post_full_info = list(map(handle_single_post, posts_to_use))
     
-    pass 
+    return post_full_info 
 
 def search_reddit(query_args):
     latitude = 42.8818 #query_args[latitude] #Test vals
@@ -173,4 +183,6 @@ def search_reddit(query_args):
     radius = query_args[radius] if "radius" in query_args else 1000.0 #Default value
     result_count = 20
     (subreddit_to_use, subreddit_name) = search_reddit_subreddits("Buffalo, New York")
-    return subreddit_to_use
+    use_location_name = False if subreddit_name is None else True
+    post_documents = search_reddit_subreddit_posts(subreddit_name, subreddit_name, use_location_name)
+    return post_documents
