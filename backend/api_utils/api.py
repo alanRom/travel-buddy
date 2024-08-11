@@ -1,14 +1,21 @@
 from typing import List
 import requests
+import praw
+
 
 from api_utils.types.reddit_subreddit_search_response import RedditSubredditSearchResult, SubredditSearchChild
 from api_utils.utils import get_separate_location_parts
-from .api_keys import google_geocode_base_endpoint, google_key, google_nearby_search_endpoint, ipinfo_base_endpoint,ipinfo_key, reddit_base_endpoint
+from .api_keys import google_geocode_base_endpoint, google_key, google_nearby_search_endpoint, ipinfo_base_endpoint,ipinfo_key, reddit_base_endpoint, reddit_client_key, reddit_secret_key
 from .types.google_geocoding_responses import SampleGoogleGeocodingResponse
 from .types.ipinfo_response import SampleIpinfoResponse
 import json
 from difflib import SequenceMatcher
 
+reddit = praw.Reddit(
+    client_id=reddit_client_key,
+    client_secret=reddit_secret_key,
+    user_agent="web:travelbuddy:v1 (by /u/alaroma)",
+)
 
 def makeEndpointFromArgs(endpoint:str, queryArgs: dict = {}):
     queryArgsAsPieces = []
