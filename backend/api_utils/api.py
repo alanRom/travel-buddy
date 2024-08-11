@@ -136,6 +136,12 @@ def search_reddit_subreddits(location_name: str):
         sorted_subreddits_by_subscribers = sorted(subreddit_list, key=lambda x: x["data"]["subscribers"], reverse=True)
         return (sorted_subreddits_by_subscribers[0], location_name)
 
+def get_comments_for_post(post_id):
+    results = reddit.submission(post_id)
+    results = list(map(lambda x: x.body, results.comments))
+    return results
+
+
 # This function searches the subreddit of the location for posts identifying well-received 
 # places of interest, including restaurants, coffee shops, etc...
 def search_reddit_subreddit_posts(subreddit_name, location_name: str, use_location_name=False):
@@ -155,6 +161,7 @@ def search_reddit_subreddit_posts(subreddit_name, location_name: str, use_locati
     
     #For each post, collect comments
 
+    
     #Return comments as documents
     
     pass 
