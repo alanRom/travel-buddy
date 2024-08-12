@@ -6,6 +6,7 @@ import praw
 from api_utils.types.reddit_subreddit_search_response import RedditSubredditSearchResult, SubredditSearchChild
 from api_utils.utils import get_separate_location_parts
 from api_utils.types.reddit_subreddit_restricted_search import PostChild, RedditSubredditRestrictedSearch
+from api_utils.types.general import LocationType
 from .api_keys import google_geocode_base_endpoint, google_key, google_nearby_search_endpoint, ipinfo_base_endpoint,ipinfo_key, reddit_base_endpoint, reddit_client_key, reddit_secret_key
 from .types.google_geocoding_responses import SampleGoogleGeocodingResponse
 from .types.ipinfo_response import SampleIpinfoResponse
@@ -63,9 +64,9 @@ def search_google_geo(location):
 def search_google_nearby_places(query_args):
     full_search_url = f"{google_nearby_search_endpoint}"
 
-    latitude = 42.8818 #query_args[latitude] #Test vals
-    longitude = -78.8820 #query_args[longitude]
-    location_types = ["restaurant"] # restaurant | coffee_shop | ice_cream_shop | tourist_attraction
+    latitude = query_args[latitude] #Test vals 42.8818 
+    longitude = query_args[longitude] # -78.8820 
+    location_types: List[LocationType] = ["restaurant"] # restaurant | coffee_shop | ice_cream_shop | tourist_attraction
     radius = query_args[radius] if "radius" in query_args else 1000.0 #Default value
     result_count = 20
 
@@ -178,9 +179,9 @@ def search_reddit_subreddit_posts(subreddit: SubredditSearchChild, location_name
     return post_full_info 
 
 def search_reddit(query_args):
-    latitude = 42.8818 #query_args[latitude] #Test vals
-    longitude = -78.8820 #query_args[longitude]
-    location_types = ["restaurant"] # restaurant | coffee_shop | ice_cream_shop | tourist_attraction
+    latitude = query_args[latitude] #Test vals
+    longitude = query_args[longitude]
+    # location_types: List[LocationType] = ["restaurant"] # restaurant | coffee_shop | ice_cream_shop | tourist_attraction
     radius = query_args[radius] if "radius" in query_args else 1000.0 #Default value
     (subreddit_to_use, subreddit_name) = search_reddit_subreddits("Buffalo, New York")
     print(subreddit_name)
