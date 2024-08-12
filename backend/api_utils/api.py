@@ -129,12 +129,12 @@ def search_reddit_subreddits(location_name: str):
     relevant_subreddits: List[SubredditSearchChild] = list(filter(filter_irrelevant_subreddits, subreddit_list))
     #Sort subreddits by subscriber count, select first one
     if len(relevant_subreddits) > 0:
-        sorted_subreddits_by_subscribers = sorted(relevant_subreddits, key=lambda x: x["data"]["subscribers"], reverse=True)
+        sorted_subreddits_by_subscribers: List[SubredditSearchChild] = sorted(relevant_subreddits, key=lambda x: x["data"]["subscribers"], reverse=True)
         return (sorted_subreddits_by_subscribers[0], None)
     else:
         #If no results left after filtering, sort by popularity and use first;
         # also, include location name in future queries
-        sorted_subreddits_by_subscribers = sorted(subreddit_list, key=lambda x: x["data"]["subscribers"], reverse=True)
+        sorted_subreddits_by_subscribers: List[SubredditSearchChild] = sorted(subreddit_list, key=lambda x: x["data"]["subscribers"], reverse=True)
         return (sorted_subreddits_by_subscribers[0], location_name)
 
 def get_comments_for_post(post_id):
@@ -146,7 +146,8 @@ def get_comments_for_post(post_id):
 
 # This function searches the subreddit of the location for posts identifying well-received 
 # places of interest, including restaurants, coffee shops, etc...
-def search_reddit_subreddit_posts(subreddit_name, location_name: str, use_location_name=False):
+def search_reddit_subreddit_posts(subreddit: SubredditSearchChild, location_name: str, use_location_name=False):
+    subreddit_name = subreddit["data"]["display_name"]
     location_to_use = f'{location_name} ' if use_location_name else ''
     info_query = f'{location_to_use}best restaurants'
     full_endpoint = makeEndpointFromArgs(f"{reddit_base_endpoint}/r/{subreddit_name}/search.json", {
@@ -181,8 +182,8 @@ def search_reddit(query_args):
     longitude = -78.8820 #query_args[longitude]
     location_types = ["restaurant"] # restaurant | coffee_shop | ice_cream_shop | tourist_attraction
     radius = query_args[radius] if "radius" in query_args else 1000.0 #Default value
-    result_count = 20
     (subreddit_to_use, subreddit_name) = search_reddit_subreddits("Buffalo, New York")
+    print(subreddit_name)
     use_location_name = False if subreddit_name is None else True
-    post_documents = search_reddit_subreddit_posts(subreddit_name, subreddit_name, use_location_name)
+    post_documents = search_reddit_subreddit_posts(subreddit_to_use, subreddit_name, use_location_name)
     return post_documents
