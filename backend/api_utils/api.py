@@ -1,3 +1,4 @@
+import os
 from typing import List
 import requests
 import praw
@@ -7,6 +8,7 @@ from api_utils.types.reddit_subreddit_search_response import RedditSubredditSear
 from api_utils.utils import get_separate_location_parts
 from api_utils.types.reddit_subreddit_restricted_search import PostChild, RedditSubredditRestrictedSearch
 from api_utils.types.general import LocationType
+from api_utils.types.google_nearby_search_result import GoogleNearbySearch
 from .api_keys import google_geocode_base_endpoint, google_key, google_nearby_search_endpoint, ipinfo_base_endpoint,ipinfo_key, reddit_base_endpoint, reddit_client_key, reddit_secret_key
 from .types.google_geocoding_responses import SampleGoogleGeocodingResponse
 from .types.ipinfo_response import SampleIpinfoResponse
@@ -169,8 +171,7 @@ def search_reddit_subreddit_posts(subreddit: SubredditSearchChild, location_name
         (text_comments, raw_comments) = get_comments_for_post(post_id)
         return {
             "Post": post,
-            "Commments": text_comments,
-            # "RawComments": raw_comments
+            "Commments": text_comments
         }
     
     #Return comments as documents
@@ -188,3 +189,34 @@ def search_reddit(query_args):
     use_location_name = False if subreddit_name is None else True
     post_documents = search_reddit_subreddit_posts(subreddit_to_use, subreddit_name, use_location_name)
     return post_documents
+
+def search_all_sources(query_args):
+    google_response: GoogleNearbySearch = search_google_nearby_places(query_args)
+    reddit_response = search_reddit(query_args)
+    full_response = {
+            "GoogleMaps": google_response,
+            "Reddit": reddit_response
+    }
+    return full_response
+
+def make_llm_query(all_sources_response):
+    google_search_string = []
+    google_places = all_sources_response["GoogleMaps"]['places']
+    # For each place returned by Google Maps, generate a small markup description 
+    # listing the place name, description, hours, and reviews
+    for index, place in enumerate(google_places):
+        desc = place['editorialSummary']['text']
+        displayName = place['displayName']['text']
+        hours = place['weekdayDescriptions'] if 'weekdayDescriptions' in place  else ''
+
+        reviews = '\n'.join(map(lambda rev: f'- {rev["text"]["text"]}', place['reviews']))
+
+        place_markup = f''' ## {displayName}
+        *Description*: {desc}
+        *Hours*: {hours}
+        *Reviews*: {reviews}
+        '''
+        google_search_string.append(place_markup)
+    
+    return '\n'.join(google_search_string)
+    
